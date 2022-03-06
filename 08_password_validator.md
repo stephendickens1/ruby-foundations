@@ -51,6 +51,25 @@ Now let's break down the problem of creating a password validator program...
 
 ## Getting Started
 
+Create a file called `password_validator.rb` and add the following as your starting point.
+
+```ruby
+def valid?(password)
+#  add your code here
+end
+```
+
+You can load the file in IRB and play with the `valid?` method by opening IRB from the directory that contains your new file and then doing...
+
+```ruby
+> load('./password_validator.rb')
+=> true
+```
+
+Now complete the method so that it returns `true` when the password is valid and `false` when the password is invalid.
+
+After you've made some changes, you need to re-run the `load` command to test out your new implementation of `valid?`
+
 <!-- OMITTED -->
 
 
