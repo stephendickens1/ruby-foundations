@@ -10,6 +10,14 @@ Whilst refactoring, we don't add any new features (such as new rules about what 
 
 The ultimate goal is to generate code that is easy to change because, if you can be sure of one thing in programming, it's that changes will be necessary! It might be that your client changes their mind, there was a misunderstanding, a new user need is discovered or maybe the application just continues to grow as planned. All of these scenarios involve changing, or building upon, the code that you already have.
 
+## Learning Objectives
+
+In this section, you will learn
+- What _refactoring_ is
+- When to refactor
+- The benefits of refactoring
+- Two potential refactors of a password validator solution
+
 ## Part One: A Potential Solution
 
 Some of you will have created something a lot like this, for your password validator.
@@ -105,13 +113,15 @@ end
 
 That method which checks for special characters is a bit long, so we can shorten it? Can we check for all of the special characters at once? Yes, we can, using a regex! Regex stands for Regular Expression and they are used to match patterns (the presence of some specific characters) in text. They are quite tricky to get your head around at first but they are very powerful and, with a bit of trial and error, you can get a lot of things done with them. Try [Rubular](https://rubular.com/) to see how to use them.
 
-Let's refactor our `special_chars_included?` method to use a regex.
+Let's refactor our `special_chars_included?` method to use a regex. Let's also assign the regex to a constant, so that we can give it a meaningful name.
 
 ```ruby
+REQUIRED_CHARS = /[!@$%&]/
+
 def special_chars_included?(password)
-  # `/[!@$%&]/` is the regex, which detects
+  # `/[!@$%&]/` is the regex
   # it matches (detects) any of the 5 special characters
-  if password =~ /[!@$%&]/
+  if password =~ REQUIRED_CHARS
     return true
   else
     return false
@@ -121,7 +131,7 @@ end
 
 ## Reflect and Review
 
-In this chapter, we introduced the practice of refactoring.
+In this section, we introduced the practice of refactoring. From now on, we'll expect you to refactor your code, as you go along, with a strong focus on readability and ease of change.
 
 **Please pause at this point to reflect and review your learning...**
 
@@ -130,16 +140,17 @@ In a few sentences, explain:
 - What refactoring is
 - When you should use it
 - The benefit of refactoring
+- Which of the two suggested refactors you prefer
 
 
-[Next Challenge](10_review.md)
+[Next Challenge](11_review.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=09_refactoring.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=09_refactoring.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=09_refactoring.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=09_refactoring.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=09_refactoring.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/10_refactoring.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/10_refactoring.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/10_refactoring.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/10_refactoring.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/10_refactoring.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

@@ -1,6 +1,6 @@
 # Beyond Concatenation
 
-In chapter 1, we saw that it's possible to join two `String`s, or _concatenate_ them, using `+`, like so...
+In section 1, we saw that it's possible to join two `String`s, or _concatenate_ them, using `+`, like so...
 
 ```ruby
 > "Hello, " + "World!"
@@ -16,15 +16,16 @@ Being able to concatenate `String`s is super useful. For example, you might have
 
 But we can do much, _much_, more than that!
 
-In this chapter, we'll go beyond concatenation and you'll learn the building blocks that will be used in your first real program - a password validator.
+In this section, we'll go beyond concatenation and you'll learn the building blocks that will be used in your first real program - a password validator.
 
 ## Learning Objectives
 
-In this chapter, you will learn about:
+In this section, you will learn:
 
-- Methods
-- `String` methods
-- The Ruby Docs
+- What _methods_ are and why they are useful
+- That methods are _called on_ things
+- That the official Ruby Docs catalogues all the String methods
+- That methods can be chained together
 
 ## Part One: Methods
 
@@ -93,16 +94,11 @@ The Ruby docs catalogue all the methods which are contained within the Ruby stan
 
 In some cases, they're quite sensibly named so you can often find what you need by browsing the list in the left sidebar. In each case, there's an explanation of what the method does and, if you're lucky, a clear example of the method in action – [`length`](https://ruby-doc.org/core-3.1.1/String.html#method-i-length) is a good example of that.
 
-> In chapter one you found a list of Ruby's other data types. Find the Ruby docs page for one of those now.
+> In section one you found a list of Ruby's other data types. Find the Ruby docs page for one of those now.
 
 ## Reflect and Review
 
-In this chapter, we covered
-
-- Methods
-- `String` methods
-- Method chaining
-- The Ruby Docs
+In this section, you learned about String methods and method chaining.
 
 **Please pause at this point to reflect and review your learning...**
 
@@ -113,15 +109,14 @@ In a few sentences, explain:
 - How method chaining works
 
 
-
-[Next Challenge](04_arguments.md)
+[Next Challenge](04_beyond_strings.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=03_beyond_concatenation.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=03_beyond_concatenation.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=03_beyond_concatenation.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=03_beyond_concatenation.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=03_beyond_concatenation.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/03_beyond_concatenation.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/03_beyond_concatenation.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/03_beyond_concatenation.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/03_beyond_concatenation.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/03_beyond_concatenation.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

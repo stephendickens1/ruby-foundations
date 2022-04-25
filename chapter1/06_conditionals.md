@@ -6,6 +6,12 @@ Sometimes, in real life, we might want to act only when certain conditions are m
 
 In programming, as in life, we need the ability to make decisions based on data.
 
+## Learning Objectives
+
+In this section, you'll learn
+
+- How to let your program make decisions, using _if statements_
+
 ## Part One: If / Else
 
 A really common way to implement this in Ruby is to use an `if` statement.  Here's an if statement is to decide which of two Strings is returned.
@@ -62,25 +68,26 @@ Now open up IRB and try playing with some `if` statements. Try adding more and m
 
 ## Reflect and Review
 
-In this chapter we covered `if` statements and how they can be used in a program to make decisions.
+In this section we covered `if` statements and how they can be used in a program to make decisions.
 
-> At this point, you might be getting sick of having to write out every line of code, every time. You'll see how to avoid that in the next chapter.
+> At this point, you might be getting sick of having to write out every line of code, every time. You'll see how to avoid that in the next section.
 
 **Please pause at this point to reflect and review your learning...**
 
 In a few sentences, explain:
 - What is meant by conditional
-- How an if statement works
+- How the `if` and `elsif` branches of an if statement work
+- How the `else` branch of an if statement works
 
 
-[Next Challenge](06_executing_ruby_files.md)
+[Next Challenge](07_executing_ruby_files.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=05_conditionals.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=05_conditionals.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=05_conditionals.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=05_conditionals.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=05_conditionals.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/06_conditionals.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/06_conditionals.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/06_conditionals.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/06_conditionals.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/06_conditionals.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

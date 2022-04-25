@@ -1,17 +1,17 @@
 # Error Messages Are Your Friends
 
-We ended the previous chapter on a cliffhanger, trying to decipher the meaning of an error message. In this short chapter, you'll see how to break it down and extract useful information.
+We ended the previous section on a cliffhanger, trying to decipher the meaning of an error message. In this short section, you'll see how to break it down and extract useful information.
 
 ## Learning Objectives
 
-By the end of this chapter, you'll be able to:
+By the end of this section, you'll be able to:
 
 - Find the useful bits of information in a basic error message
 - Welcome error messages as helpful feedback :)
 
 ## Dissecting Your First Error Message
 
-You probably got something a lot like this at the end of the last chapter. Did you figure out what it means?
+You probably got something a lot like this at the end of the last section. Did you figure out what it means?
 
 ```ruby
 > Hello
@@ -46,6 +46,23 @@ If we'd been using IRB for a while and had entered some other commands prior to 
 
 And that's it! The rest of the error message, in this case, is useless to us because it points to code that is part of the Ruby library (and we can be reasonably sure that is not the cause of our problem).
 
+## Another Error
+
+Now do this to generate one more error message and try to figure out its telling you (note the lower case `b`).
+
+```ruby
+> byeeeeeeeee
+```
+
+## Reflect and Review
+
+In this section, we picked apart an error message to find the useful information. Hopefully, you'll welcome the next one you see as a helpful old friend :)
+
+**Please pause at this point to reflect and review your learning...**
+
+- How much of each error message was actually useful to you?
+- Can you resolve to say "That's interesting!" next time you see an error message?
+
 
 [Next Challenge](03_beyond_concatenation.md)
 
@@ -54,7 +71,7 @@ And that's it! The rest of the error message, in this case, is useless to us bec
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=02_error_messages.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=02_error_messages.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=02_error_messages.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=02_error_messages.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=02_error_messages.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/02_error_messages.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/02_error_messages.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/02_error_messages.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/02_error_messages.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/02_error_messages.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

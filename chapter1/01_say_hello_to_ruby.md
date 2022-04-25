@@ -4,13 +4,13 @@ Ruby was created by Yukihiro Matsumoto (affectionately known as "Matz"), with th
 
 ## Learning objectives
 
-In this chapter, you'll learn about:
+In this section, you'll learn:
 
 - One way of executing Ruby code
-- Strings
-- Return values
-- Variable assignment
-- Constants
+- How to create and concatenate Strings
+- What is meant by _return value_
+- How to _assign_ and _reassign variables_
+- How to _assign constants_
 
 ## Prerequisites
 
@@ -131,7 +131,7 @@ Variables are used to contain things which you expect to change. What if you exp
 
 1. What happens if you try to _reassign_ a _constant_?  Do it now in IRB.
 
-2. We've seen that a `String` is created by enclosing some characters in quotes. What happens if you leave them out? Do it, see what happens and try to explain what's going on.
+2. We've seen that a `String` is created by enclosing some characters in quotes. What happens if you leave them out? Do it (being sure to use a capital `H`) see what happens and try to explain what's going on.
 
 I.e. Try this...
 
@@ -139,11 +139,11 @@ I.e. Try this...
 > Hello
 ```
 
-When you've spent a few mins thinking and researching, move on to the next section and we'll come back to this in the next chapter, which focuses on error messages.
+When you've spent a few mins thinking and researching, move on to the next section and we'll come back to this in the next section, which focuses on error messages.
 
 ## Reflect and Review
 
-So far, we've touched on quite a few things, very superficially but, rest assured, we'll dig deeper in later chapters as these are some of the basic building blocks of almost every Ruby program.
+So far, we've touched on quite a few things, very superficially but, rest assured, we'll dig deeper in later sections as these are some of the basic building blocks of almost every Ruby program.
 
 ### So far, we've encountered
 
@@ -168,7 +168,7 @@ So far, we've touched on quite a few things, very superficially but, rest assure
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=01_say_hello_to_ruby.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=01_say_hello_to_ruby.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=01_say_hello_to_ruby.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=01_say_hello_to_ruby.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=01_say_hello_to_ruby.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/01_say_hello_to_ruby.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/01_say_hello_to_ruby.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/01_say_hello_to_ruby.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/01_say_hello_to_ruby.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/01_say_hello_to_ruby.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

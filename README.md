@@ -13,7 +13,6 @@ In this section, you'll learn how to write programs using Ruby which will, neces
 - Describe and use variables
 - Describe and use constants
 - Describe and use conditionals
-- Describe and use control flow
 - Describe and use arrays
 - Describe and use hashes
 - Describe and use methods
@@ -22,28 +21,21 @@ In this section, you'll learn how to write programs using Ruby which will, neces
 
 ## Structure
 
-There are XX chapters to work through. The first chapter introduces a range of new concepts and which are built upon, and added to, as you progress through the other chapters. This process of introducing something and then revisiting it later on is called "spiralling" – you can read about it [here](./pills/spiralling.md), if you're curious.
+There are 3 chapters to work through. The first chapter introduces a range of new concepts and which are built upon, and added to, as you progress through the other chapters. This process of introducing something and then revisiting it later on is called "spiralling" – you can read about it [here](./pills/spiralling.md), if you're curious.
 
-At the end of some chapters, you'll do a quiz that you must pass before moving on.
+As you progress you'll be given challenges at several points, which you must complete before moving on. There are two types of challenge - _drills_ and _programs_.
 
+### Drills
+
+These challenges are really tightly focused and repetitive. The goal is to become familiar with the basic building blocks of programming.
+### Programs
+
+These challenges require you to bring those basic building blocks together and build a useful program.
 ## Chapters
 
-1. [Say Hello to Ruby](./01_say_hello_to_ruby.md)
-2. [Error Messages](./02_error_messages.md)
-3. [Beyond Concatenation](./03_beyond_concatenation.md)
-4. [Arguments](./04_arguments.md)
-5. [Conditionals](./05_conditionals.md)
-6. [Executing Ruby Files](./06_executing_ruby_files.md)
-7. [Defining Methods](./07_defining_methods.md)
-8. [Password Validator](./08_password_validator.md)
-9. [Refactoring](./09_refactoring.md)
-10. [Review](./10_review.md)
-11. [Planning](./11_planning.md)
-12. [Introducing Arrays](./12_introducing_arrays.md)
-13. [Introducing Hashes](./13_introducing_hashes.md)
-14. [Introducing Classes](./14_introducing_classes.md)
-15. [Scope](./15_scope.md)
-16. [Password Manager](./16_password_manager.md)
+1. [Password Validator](./chapter1/README.md)
+2. [Password Manager](./chapter2/README.md)
+3. [Password Manager 2.0](./chapter3/README.md)
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

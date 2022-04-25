@@ -9,7 +9,7 @@ So far, we've seen how to call _some_ methods on Strings. For example, we can us
 
 ## Learning Objectives
 
-In this chapter, you will learn about
+In this section, you will learn about:
 - What arguments are
 - How to use arguments
 
@@ -94,27 +94,24 @@ It's quite common to accidentally provide the wrong number of arguments to a met
 
 ## Reflect and Review
 
-In this chapter we covered
-- Arguments
-- Methods that take one argument
-- Methods that take multiple arguments
+In this section you learned that things can be _passed into_ methods as _arguments_.
 
 **Please pause at this point to reflect and review your learning...**
 
 In a few sentences, explain:
-- Arguments
+- What arguments are
 - How to use arguments
 - What happens when you provide the wrong number of arguments
 
 
-[Next Challenge](05_conditionals.md)
+[Next Challenge](06_conditionals.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=04_arguments.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=04_arguments.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=04_arguments.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=04_arguments.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=04_arguments.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/05_arguments.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/05_arguments.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/05_arguments.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/05_arguments.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter1/05_arguments.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->
