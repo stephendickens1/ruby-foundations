@@ -19,15 +19,15 @@ A really common way to implement this in Ruby is to use an `if` statement.  Here
 ```ruby
 > name = "Pedro Luis Gonçalo da Costa"
 > if(name.length > 25)
->   return "that's a very long name"
+>   "that's a very long name"
 > else
->   return "that's not a very long name"
+>   "that's not a very long name"
 > end
 ```
 
 _This might seem like a silly example, because we could just count the letters in `name`. But imagine that you don't know what value `name` holds – maybe it came from a user and maybe it will be different for every user.
 
-Let's break down the `if` statement. On the first line (after assigning `name`) we have `if(name.length > 25)`. The part in brackets will _resolve_ to (return) either `true` or `false`. If it resolves to `true`, the code on the third line `return "that's a long name"` is executed (and the remaining code is skipped). If `name.length > 25` resolves to `false`, the next line is skipped. Then we have a _catch all (else)_ clause. It covers all situations where `name.length > 25` resolves to false. Note that `if` statements end with `end`.
+Let's break down the `if` statement. On the first line (after assigning `name`) we have `if(name.length > 25)`. The part in brackets will _resolve_ to (return) either `true` or `false`. If it resolves to `true`, the code on the third line `"that's a long name"` is executed (and the remaining code is skipped). If `name.length > 25` resolves to `false`, the next line is skipped. Then we have a _catch all_ (else) clause. It covers all situations where `name.length > 25` resolves to false. Note that `if` statements end with `end`.
 
 <!-- OMITTED -->
 
@@ -65,6 +65,10 @@ name = "Edward Smith"
 ```
 
 Now open up IRB and try playing with some `if` statements. Try adding more and more branches. See what happens if you leave off the `end`.
+
+## Further Resources
+
+- This section in [video form](https://youtu.be/jCcQ4F-nIYc)
 
 ## Reflect and Review
 

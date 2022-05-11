@@ -92,6 +92,11 @@ And, finally, this...
 
 It's quite common to accidentally provide the wrong number of arguments to a method, so it's worth taking a moment to familiarise yourself with the error messages that you just saw.
 
+## Further Resources
+
+- This section in [video form](https://youtu.be/SqhDCxS3O00)
+- [A blog post on String methods](https://dev.to/jleewebdev/working-with-string-in-ruby-all-the-important-methods-you-need-to-know-1h71)
+
 ## Reflect and Review
 
 In this section you learned that things can be _passed into_ methods as _arguments_.

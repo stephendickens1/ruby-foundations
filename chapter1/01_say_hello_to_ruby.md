@@ -14,10 +14,7 @@ In this section, you'll learn:
 
 ## Prerequisites
 
-<!-- OMITTED -->
-
-* You have read our guidance on problem solving
-* You have set up your machine by following the instructions we provided earlier on
+* Your machine is [set up](https://github.com/makersacademy/basic-programming#phase-zero-development-setup), ready for some programming
 
 ## Part One: Executing Ruby Code in IRB
 
@@ -141,6 +138,10 @@ I.e. Try this...
 
 When you've spent a few mins thinking and researching, move on to the next section and we'll come back to this in the next section, which focuses on error messages.
 
+## Further Resources
+
+- This section in [video form](https://youtu.be/FtiWx0Or2uk)
+- [About Ruby](https://www.ruby-lang.org/en/about/)
 ## Reflect and Review
 
 So far, we've touched on quite a few things, very superficially but, rest assured, we'll dig deeper in later sections as these are some of the basic building blocks of almost every Ruby program.

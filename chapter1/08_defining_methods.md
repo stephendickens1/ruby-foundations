@@ -82,6 +82,10 @@ Now get some practice by defining some methods, in IRB, that:
 
 Now define some methods and execute them from a file.
 
+## Further Resources
+
+- This section in [video form](https://youtu.be/Sn7OCUMJQg4)
+
 ## Reflect and Review
 
 In this section we learned how to define methods.

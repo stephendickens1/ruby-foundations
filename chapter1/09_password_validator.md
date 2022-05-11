@@ -1,17 +1,20 @@
 # Building a Password Validator
 
-In this section, you'll be guided through building a password validator then, at the end, you'll do the first quiz on which you must score 100% in order to progress.
+In this section, you'll we'll plan the password validator and then you'll  will build the password validator.
+
+You must complete the password validator before moving on to section 10.
 
 ## Before You Begin
 
 Do the drills for this chapter to get practice with each individual component before bringing everything together.
+
+You must complete all the drills, before moving on to section 10.
 ## Requirements
 
 The password validator will ensure that a password is compliant with the following rules.
 
 - It must be longer than 7 characters (8 is fine)
 - It must contain at least one of the following special characters: `!`, `@`, `$`, `%` or `&`
-- It must not contain any spaces
 
 If the password is valid, the program should return true.  If the password is invalid, the program should return false.
 
@@ -52,8 +55,15 @@ Now let's break down the problem of creating a password validator program...
 2. There'll be one branch for checking length
 3. There'll be one or more branches that check for the presence of special characters
 
+## Further Resources
+
+- This section in [video form]
+
 ## Getting Started
 
+The information and the challenges themselves are in [this repo](https://github.com/makersacademy/ruby_foundations_quizzes).
+
+Once you finish the challenges for Chapter 1, come here to reflect on your progress.
 
 ## Reflect and Review
 
@@ -63,6 +73,7 @@ Well done for completing the first drills and programming challenge!
 
 - What did you find hard about the drills?
 - What did you find hard about the programming challenge?
+- What one thing would you like to learn more about?
 
 
 [Next Challenge](10_refactoring.md)

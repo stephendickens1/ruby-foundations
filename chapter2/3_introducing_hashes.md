@@ -35,6 +35,19 @@ Hashes are made up of key-value pairs. The _key_ is a label and the _value_ is t
 
 Now open IRB and create a few hashes of your own. You'll inevitably make a mistake at some point and Ruby will show you an error message. Try to understand it – new error messages can be learning opportunities!
 
+After you've created a few hashes, try using something other than a String for the keys. What works? What doesn't work?
+
+In Ruby, it's very common to use symbols as keys – mostly because it looks prettier but it's also easier to type, due to another Ruby quirk. Here's an example...
+
+```ruby
+> { name: 'Sandi Metz' }
+=> { :name => 'Sandi Metz' }
+```
+
+Notice that what I typed and what got returned are not identical. Ruby allows you to do a kind of short-hand when symbols are used as keys and I was able to omit the `=>`. This saved me two slightly awkward keystrokes - win! When reading and executing this code, the Ruby interpreter added in the `=>` and changed the symbol back to its normal form.  Hence, we see `ruby { :name => 'Sandi Metz' }` returned.
+
+In the examples below, we use Strings as keys but you're welcome to use symbols instead, if you prefer. You'll also see people doing this online, if you search for help.
+
 ## Part Two: Reading Individual Values
 
 Once you have a hash, you can read an individual _value_ using its _key_.

@@ -14,9 +14,27 @@ Being able to concatenate `String`s is super useful. For example, you might have
 => "Yukihiro Matsumoto"
 ```
 
-But we can do much, _much_, more than that!
+It's also possible to build strings using _interpolation_. This technique allows you to insert content into strings. Here's an example where the `name` is interpolated into a template string – the content to insert is placed inside `#{}`. NOTE: The template string must be declared using double quotes.
 
-In this section, we'll go beyond concatenation and you'll learn the building blocks that will be used in your first real program - a password validator.
+```ruby
+> name = 'Mina'
+=> 'mina'
+> "Hello #{name}, how are you today?"
+=> "Hello Mina, how are you today?"
+```
+
+Here's another example.
+
+```ruby
+> date = '5/5/2022'
+=> '5/5/2022'
+> "The date today is #{date}"
+=> "The date today is 5/5/2022"
+```
+
+But we can do much, _much_, more than concatenate and interpolate Strings!
+
+In this section, we'll go beyond concatenation (and interpolation) and you'll learn the building blocks that will be used in your first real program - a password validator.
 
 ## Learning Objectives
 
@@ -95,6 +113,10 @@ The Ruby docs catalogue all the methods which are contained within the Ruby stan
 In some cases, they're quite sensibly named so you can often find what you need by browsing the list in the left sidebar. In each case, there's an explanation of what the method does and, if you're lucky, a clear example of the method in action – [`length`](https://ruby-doc.org/core-3.1.1/String.html#method-i-length) is a good example of that.
 
 > In section one you found a list of Ruby's other data types. Find the Ruby docs page for one of those now.
+
+## Further Resources
+
+- This section in [video form](https://youtu.be/m2gcP_Fnr6A)
 
 ## Reflect and Review
 

@@ -23,7 +23,19 @@ The password manager will need to:
 
 ## Getting Started
 
-<!-- OMITTED -->
+The information and the challenges themselves are in [this repo](https://github.com/makersacademy/ruby_foundations_quizzes).
+
+Once you finish the challenges for Chapter 2, come here to reflect on your progress.
+
+## Reflect and Review
+
+Well done for completing the Chapter 2 challenges!
+
+**Please pause at this point to reflect and review your learning...**
+
+- What did you find hard about the drills?
+- What did you find hard about the programming challenge?
+- What one thing would you like to learn more about?
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

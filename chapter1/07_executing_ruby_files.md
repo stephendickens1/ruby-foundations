@@ -9,15 +9,21 @@ So we need to be able to write code in files and execute it from those files. Le
 In this section, you'll learn:
 - How to execute Ruby code that is saved in a `.rb` file
 
-Create a file called `hello_world.rb` (remember that `;` is the command line prompt, so we're not using IRB here).
+Open Terminal or iTerm and `cd` into your home directory (you can use `~` as shortcut)
+
+```shell
+; cd ~
+```
+
+Then create a file called `hello_world.rb`.
 
 ```shell
 ; touch hello_world.rb
 ```
 
-Then open it up in your text editor and add the following Ruby code and save using `command + s`
+The file will be inside your home directory – open it up in your text editor, add the following Ruby code and save the file using `command + s`.
 
-Below, `puts` is used to print `"Hello world!` to the terminal. We need it here because simply doing `"Hello, World!"` wouldn't result in anything that we can see from the terminal (do try it).
+**Below, `puts` is used to print `"Hello world!` to the terminal. We need it here because simply doing `"Hello, World!"` wouldn't result in anything that we can see from the terminal (do try it).**
 
 ```ruby
 # in hello_world.rb – lines that start with # are comments (you don't need to type them out)
@@ -38,8 +44,12 @@ Now use this as a chance to practice some of the things we've covered previously
 
 - Create a few more files using `touch`
 - Add some ruby code to each one
-- Be sure to use some of the String methods you encountered in earlier sections
+- Use some of the String methods you encountered in earlier sections
 - Execute the code using `ruby new_file.rb` if, for example, your file is called `new_file.rb`
+
+## Further Resources
+
+- This section in [video form](https://youtu.be/XtreBh7TcyQ)
 
 ## Reflect and Review
 

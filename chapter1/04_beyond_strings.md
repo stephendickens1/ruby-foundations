@@ -155,6 +155,10 @@ Yes, these are slightly useless examples contrived to show you how booleans and 
 # would return true or false
 ```
 
+## Further Resources
+
+- This section in [video form](https://youtu.be/kaTyq6NquXA)
+
 ## Reflect and Review
 
 In this section, you learned about Integers, Floats, Symbols and Booleans.

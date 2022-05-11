@@ -54,6 +54,11 @@ Now do this to generate one more error message and try to figure out its telling
 > byeeeeeeeee
 ```
 
+## Further Resources
+
+- This section in [video form](https://youtu.be/MicYD2bi7_c)
+- [A really awesome blog post about Ruby error messages](https://dev.to/jeremy/the-blog-post-about-ruby-error-messages-i-wish-id-had-when-i-started-programming-45ef)
+
 ## Reflect and Review
 
 In this section, we picked apart an error message to find the useful information. Hopefully, you'll welcome the next one you see as a helpful old friend :)

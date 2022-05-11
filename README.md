@@ -2,9 +2,7 @@
 
 ## Learning objectives
 
-<!-- OMITTED -->
-
-In this section, you'll learn how to write programs using Ruby which will, necessarily, involve learning Ruby's syntax. Along the way, you'll also learn about [problem decomposition](link), [debugging](link) and [experimenting in IRB](link).
+In this section, you'll learn how to write programs using Ruby which will, necessarily, involve learning Ruby's syntax. Along the way, you'll also learn about [problem decomposition](./pills/problem_decomposition.md), [debugging](./pills/debugging.md) and [experimenting in IRB](./pills/irb.md).
 
 #### By the end of the module, you will be able to
 
@@ -21,7 +19,7 @@ In this section, you'll learn how to write programs using Ruby which will, neces
 
 ## Structure
 
-There are 3 chapters to work through. The first chapter introduces a range of new concepts and which are built upon, and added to, as you progress through the other chapters. This process of introducing something and then revisiting it later on is called "spiralling" – you can read about it [here](./pills/spiralling.md), if you're curious.
+There are 3 chapters to work through. The first chapter introduces a range of new concepts and which are built upon, and added to, as you progress through the other chapters. This process of introducing something and then revisiting it later on is called _spiralling_.
 
 As you progress you'll be given challenges at several points, which you must complete before moving on. There are two types of challenge - _drills_ and _programs_.
 
