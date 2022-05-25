@@ -97,7 +97,7 @@ In a few sentences, describe:
 - The syntax / structure of a method
 
 
-[Next Challenge](09_password_validator.md)
+[Next Challenge](09_putting_it_into_practice.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

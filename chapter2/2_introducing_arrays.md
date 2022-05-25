@@ -103,6 +103,13 @@ Some of them will also work on an Array of Strings `['cat', 'potato', 'ruby', 's
 
 You can find more [Array methods]((https://ruby-doc.org/core-3.0.0/Array.html)) in the Ruby Docs.
 
+## Further Resources
+
+The video for this section is in two parts...
+
+- [Here's the first part](https://youtu.be/I_oMPekZLwM)
+- [Here's the second part](https://youtu.be/NB6dau9kr6Q)
+
 ## Reflect and Review
 
 In this section, we introduced the concept of an array and how to use it. We also learned how to create arrays, add items to arrays, and access items in arrays. They're very useful but they are not the solution to every problem, just like the hammer is not the right tool for every job.

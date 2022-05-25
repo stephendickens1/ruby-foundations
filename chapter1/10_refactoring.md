@@ -60,8 +60,8 @@ The first method will look like this and it will return either `true`, when the 
 
 ```ruby
 def sufficient_length?(password)
-  # this password.length < 8 will evaluate to true or false
-  return password.length < 8
+  # this password.length > 7 will evaluate to true or false
+  return password.length > 7
 end
 ```
 
@@ -128,6 +128,10 @@ def special_chars_included?(password)
   end
 end
 ```
+
+## Further Resources
+
+- This section in [video form](https://youtu.be/PJWSKKMTVyo)
 
 ## Reflect and Review
 
