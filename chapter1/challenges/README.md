@@ -106,11 +106,10 @@ Each of these can be further broken down...
 3. There'll be one or more branches that check for the presence of special characters
 
 ### Getting Started
-1. 
-2. Navigate to the `program` directory on the command line and run `rspec`
-3. Work in small steps to complete the `valid?` method in `./lib/password_validator.rb`
-4. Run `rspec` regularly to check your progress
-5. Keep going until all the tests pass
+1. Navigate to the `program` directory on the command line and run `rspec`
+2. Work in small steps to complete the `valid?` method in `./lib/password_validator.rb`
+3. Run `rspec` regularly to check your progress
+4. Keep going until all the tests pass
 
 ## Submitting Your Work
 
