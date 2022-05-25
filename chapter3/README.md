@@ -28,6 +28,13 @@ Password Manager is great but it lacks a few really useful features. The next it
 
 ## Contents
 
+1. [Planning](./1_planning.md)
+2. [Choosing a Data Structure Part I](./2_choosing_a_data_structure_i.md)
+3. [Choosing a Data Structure Part II](./3_choosing_a_data_structure_ii.md)
+4. [Advanced Arrays](./4_advanced_arrays.md)
+5. [Advanced Hashes](./5_advanced_hashes.md)
+6. [Putting it Into Practice](./6_putting_it_into_practice.md)
+7. [Review](./7_review.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

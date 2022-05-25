@@ -1,6 +1,6 @@
 # Chapter 1 Challenges
 
-Well done for reaching the chapter 1 challenges! Here, you'll find two types of exercise: drills and a programming challenge. Do the drills first and then move onto the programming challenge. You must complete both before going [back](../09_putting_it_into_practice.ed.md) to reflect on your progress.
+Well done for reaching the chapter 1 challenges! Here, you'll find two types of exercise: drills and a programming challenge. Do the drills first and then move onto the programming challenge. You must complete both before going [back](../09_putting_it_into_practice.md) to reflect on your progress.
 
 ## Initial Setup
 
@@ -95,7 +95,7 @@ Each of these can be further broken down...
 1. Get lots and lots of boxes
 - Get some boxes from Tesco
 - Get some boxes from Asda
-- Get some boxes from that shop on the corner whose name your forgot
+- Get some boxes from that shop on the corner whose name you've forgotten
 - Check if you have lots of boxes
 - If you need more boxes, do all of this again tomorrow
 
@@ -118,7 +118,7 @@ Each of these can be further broken down...
 
 ## What Next?
 
-Go back [here](../09_putting_it_into_practice.ed.md#reflect-and-review) to reflect on your progress before moving on.
+Go back [here](../09_putting_it_into_practice.md#reflect-and-review) to reflect on your progress before moving on.
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

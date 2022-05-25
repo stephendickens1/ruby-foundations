@@ -25,7 +25,7 @@ Sections 1 to 5 will introduce you to the skills and concepts you'll need in ord
 3. [Introducing Hashes](./3_introducing_hashes.md)
 4. [Introducing Classes](./4_introducing_classes.md)
 5. [Scope](./5_scope.md)
-6. [Password Manager](./6_building_password_manager.md)
+6. [Putting it Into Practice](./6_putting_it_into_practice.md)
 7. [Review](./7_review.md)
 
 
