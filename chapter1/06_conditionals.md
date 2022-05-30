@@ -2,7 +2,7 @@
 
 Sometimes, in real life, we might want to act only when certain conditions are met. For example, you might decide that you're only going for a picnic if it's not raining or that you'll only try to make a cake if you have all the ingredients.
 
-![Flowchart representing the above decisions](../images/ifs_flowchart.svg)
+<img alt="Flowchart representing the above decisions" src="../images/ifs_flowchart.svg" width="500">
 
 <!-- OMITTED -->  
 
