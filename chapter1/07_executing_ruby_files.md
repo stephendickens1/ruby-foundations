@@ -21,7 +21,7 @@ Then create a file called `hello_world.rb`.
 ; touch hello_world.rb
 ```
 
-The file will be inside your home directory – open it up in your text editor, add the following Ruby code and save the file using `command + s`.
+The file will be inside your home directory – open it up in your text editor, add the following Ruby code and save the file using `command + s`.
 
 **Below, `puts` is used to print `"Hello world!` to the terminal. We need it here because simply doing `"Hello, World!"` wouldn't result in anything that we can see from the terminal (do try it).**
 
@@ -53,7 +53,7 @@ Now use this as a chance to practice some of the things we've covered previously
 
 ## Reflect and Review
 
-In this section, you learned a second way of executing Ruby code – this time from a file.
+In this section, you learned a second way of executing Ruby code – this time from a file.
 
 **Please pause at this point to reflect and review your learning...**
 

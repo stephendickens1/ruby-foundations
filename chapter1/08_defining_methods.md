@@ -1,6 +1,6 @@
 # Defining Methods
 
-Ruby comes with a huge number of built in methods, which allow you to do all manner of String manipulations, for example. In fact, it comes with all you need to do pretty much anything you want but if you only use Ruby's built in methods, things will get messy. Let me demonstrate...
+Ruby comes with a huge number of built in methods. These allow you to do all manner of String manipulations and other things. In fact, it comes with all you need to do pretty much anything you want, but if you only use Ruby's built in methods, things will get messy. Let me demonstrate...
 
 Imagine that, as part of a program you're building, you need to calculate an employee's monthly salary after tax. The calculation would involve several steps...
 
@@ -17,7 +17,7 @@ If you had to do this, every time that you needed to show someone's net monthly 
 
 Your codebase would be more concise, less repetitive and, last but not least, that long series of calculations would get it's own meaningful name (the method's name).
 
-## Learning objectives
+## Learning objectives
 
 In this section, you will learn how to:
 - Define your own methods

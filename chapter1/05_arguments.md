@@ -29,7 +29,7 @@ In the first scenario, we just call the `length` method and Ruby will return a n
 
 In the second scenario, we need to find a new method and, importantly, we need a way of stating which character we're interested in. This is where _arguments_ come in. Arguments are pieces of information that you provide to methods. I'll demonstrate using the `include?` method, which is what we're after right now.
 
-```
+```ruby
 > "programming".include?("p")
 => true
 ```
@@ -63,7 +63,7 @@ Now open up IRB and try out these methods, all of which take one argument. You m
 
 ## Part Two: Multiple Arguments
 
-Some methods take more than one argument but calling them is easy – you just put them all in parentheses, separated by a comma. For example, the `gsub` method can be used to substitute all instances of one character for another character, which means you need to provide two arguments – the character to target and its replacement.
+Some methods take more than one argument but calling them is easy – you just put them all in parentheses, separated by a comma. For example, the `gsub` method can be used to substitute all instances of one character for another character, which means you need to provide two arguments – the character to target and its replacement.
 
 ```ruby
 > "Edward Woodward".gsub("d", "o")

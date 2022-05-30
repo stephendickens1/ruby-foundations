@@ -2,7 +2,7 @@
 
  The term _scope_ refers to the places in which program objects, such as variables, can be used. In the previous exercise, you saw that the local variables `first_name` and `surname` were only available within the `initialize` method.  I.e. Their _scope_ is limited to the `initialize` method.
 
- Instance variables, however, have a broader _scope_ – they are available anywhere within the instance of a class. So you can assign them in the initialize method and then use then in another method, without problem. They are not, however, available outside the class.
+ Instance variables, however, have a broader _scope_ – they are available anywhere within the instance of a class. So you can assign them in the initialize method and then use then in another method, without problem. They are not, however, available outside the class.
 
  ## Learning Objectives
 

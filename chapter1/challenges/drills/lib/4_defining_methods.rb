@@ -1,7 +1,7 @@
 # In these exercises, you'll be defining methdods, so you start only with a set of requirements for each one.
 
 # the requirements will always start with the name of the method
-# then they'll describe what the method should do
+# then they'll describe what the method should do
 
 # here's an example of some requirements
 
@@ -9,7 +9,7 @@
 # takes one number as an arg
 # adds ten and returns the new value
 # example: the arg is 5
-# returns 15
+# returns 15
 
 # and here's the solution
 
@@ -22,7 +22,7 @@ end
 # now it's over to you!
 
 # say_hello
-# takes no args
+# takes no args
 # returns 'hello'
 
 # say goodbye
@@ -40,18 +40,18 @@ end
 # returns `Goodbye, Sam`
 
 # square
-# takes one number as an arg
-# multiplies that number by itself
+# takes one number as an arg
+# multiplies that number by itself
 # returns the new value
 
 # divisible_by_three?
-# takes one number as an arg
+# takes one number as an arg
 # returns true if the number is divisible by three
 # returns false if the number is not divisible by three
 
 # add
-# takes two numbers as args
-# adds them together
+# takes two numbers as args
+# adds them together
 # returns the total
 
 # add_number_strings
@@ -60,8 +60,8 @@ end
 # returns the total
 
 # multiply
-# takes two numbers as args
-# multiplies one by the other
+# takes two numbers as args
+# multiplies one by the other
 # returns the result
 
 # multiply_number_strings
@@ -71,12 +71,12 @@ end
 # returns the result
 
 # both_odd?
-# takes two numbers as args
+# takes two numbers as args
 # returns true if both are odd
 # otherwise, returns false
 
 # both_even?
-# takes two numbers as args
+# takes two numbers as args
 # returns true if both are even
 # otherwise, returns false
 
@@ -91,7 +91,7 @@ end
 # otherwise returns false
 
 # rev_sym_caps
-# takes one string as an arg
+# takes one string as an arg
 # reverses it
 # converts it to a symbol
 # returns the symbol in block caps

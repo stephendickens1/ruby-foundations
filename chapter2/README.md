@@ -1,6 +1,6 @@
-# Chapter 2: Password Manager
+# Chapter 2: Password Manager
 
-## Learning Objectives
+## Learning Objectives
 
 In this chapter, you'll work towards these 8 learning objectives (and get further practice with some of the others)
 

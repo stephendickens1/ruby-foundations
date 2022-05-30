@@ -18,7 +18,7 @@ It's also possible to build strings using _interpolation_. This technique allows
 
 ```ruby
 > name = 'Mina'
-=> 'mina'
+=> 'Mina'
 > "Hello #{name}, how are you today?"
 => "Hello Mina, how are you today?"
 ```
@@ -42,7 +42,7 @@ In this section, you will learn:
 
 - What _methods_ are and why they are useful
 - That methods are _called on_ things
-- That the official Ruby Docs catalogues all the String methods
+- That the official Ruby Docs catalogue all the String methods
 - That methods can be chained together
 
 ## Part One: Methods
@@ -73,7 +73,7 @@ Hopefully, you're already in IRB and have followed along with the above. If not,
 > "hullabaloo".length
 ```
 
-What do they do? As you play with these methods, try creating some variables to hold the return values and then see what happens when you call a method on a variable. One of them is not a real method, so you'll get an error message – be ready to find the useful information in it.
+What do they do? As you play with these methods, try creating some variables to hold the return values and then see what happens when you call a method on a variable. One of them is not a real method, so you'll get an error message – be ready to find the useful information in it.
 
 - `capitalize`
 - `downcase`
@@ -110,7 +110,7 @@ This works, because `upcase` returns `"HELLO"`, which means we then call `revers
 
 The Ruby docs catalogue all the methods which are contained within the Ruby standard library. So, for example, you can find [all the `String` methods](https://ruby-doc.org/core-3.1.1/String.html).
 
-In some cases, they're quite sensibly named so you can often find what you need by browsing the list in the left sidebar. In each case, there's an explanation of what the method does and, if you're lucky, a clear example of the method in action – [`length`](https://ruby-doc.org/core-3.1.1/String.html#method-i-length) is a good example of that.
+In some cases, they're quite sensibly named so you can often find what you need by browsing the list in the left sidebar. In each case, there's an explanation of what the method does and, if you're lucky, a clear example of the method in action – [`length`](https://ruby-doc.org/core-3.1.1/String.html#method-i-length) is a good example of that.
 
 > In section one you found a list of Ruby's other data types. Find the Ruby docs page for one of those now.
 

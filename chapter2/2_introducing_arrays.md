@@ -19,7 +19,7 @@ An array of the numbers 1 to 9 would look like this.
 
 Try creating some arrays IRB now.
 
-Ruby arrays can contain anything – Strings, Integers, Floats, Symbols, Booleans – you can even create arrays of arrays, but let's not do _that_ yet!
+Ruby arrays can contain anything – Strings, Integers, Floats, Symbols, Booleans – you can even create arrays of arrays, but let's not do _that_ yet!
 
 ## Part Two: Adding Items to an Array
 

@@ -2,7 +2,7 @@
 
 To track the date on which a service was added to Password Manager, we'll need to modify the data-structure that stores them.
 
-## Learning Objectives
+## Learning Objectives
 
 In this section, you will learn
 - How to build a nested Hash

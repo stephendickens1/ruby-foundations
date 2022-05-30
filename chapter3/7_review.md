@@ -12,7 +12,7 @@ In this section, you've worked towards 8 of the module's 10 learning objectives.
 - Describe and use methods :point_left:
 - Describe and use classes :point_left:
 
-Please take 15 minutes to review them now. Use the following questions to guide you (some of which will relate to learning objectives from previous chapters) and, if you get stuck, reach out to one of your peers – that will allow them to further test themselves.
+Please take 15 minutes to review them now. Use the following questions to guide you (some of which will relate to learning objectives from previous chapters) and, if you get stuck, reach out to one of your peers – that will allow them to further test themselves.
 
 1. Which data structure did you choose and why?
 2. How did your choice of data structure impact on your implementation of Password Manager 2?

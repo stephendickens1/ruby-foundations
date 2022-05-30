@@ -29,7 +29,7 @@ It might be tempting to think that you already know everything you need to do th
 
 - When we come to list out all the services, we'll use a `Hash` method which generates an `Array`. Compared to Hashes, Arrays are more basic lists of things. So we'll learn about how to make an `Array` first, before learning about `Hash`es.
 
-- Finally, to do a really great job of this, we'll need to learn about classes. Classes are used to contain, or _encapsulate_ related methods and variables. Used well, they provide another mechanism for programmers to break up the code into logical units that are easy to reason about and understand. This is very similar to the way in which we broke up the password validator into a number of short methods.
+- Finally, to do a really great job of this, we'll need to learn about classes. Classes are used to contain, or _encapsulate_ related methods and variables. Used well, they provide another mechanism for programmers to break up the code into logical units that are easy to reason about and understand. This is very similar to the way in which we broke up the password validator into a number of short methods.
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

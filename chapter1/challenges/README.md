@@ -48,7 +48,9 @@ It means that RSpec cannot find your tests and, normally, it's the result of run
 
 ## Drills
 
-Drills are short, tightly focused exercises which get harder as you progress. You will only need to work in the `lib` directory. Do not change anything in the `spec` directory. Please submit your code using the form at the end of this file.
+Drills are short, tightly focused exercises which get harder as you progress. You will only need to work in the `lib` directory. Do not change anything in the `spec` directory.
+
+> Please submit your code using the form at the end of this file.
 
 ### Getting Started
 
@@ -82,7 +84,7 @@ If the password is valid, the program should return true.  If the password is in
 
 It's absolutely critical that you get good at problem decomposition if you want to succeed as a software developer. Simply put, it is the process of breaking down large complex problems into small problems that are easy to solve. If you don't do this, you will eventually get really stuck but if you do it, and do it well, you will be able to build **anything**.
 
-Let's do some problem decomposition, first of all with a non-programming problem – moving house.
+Let's do some problem decomposition, first of all with a non-programming problem – moving house.
 
 Moving house is a complex and stressful problem that can be broken down into very many simpler problems, or tasks. For example...
 
@@ -122,6 +124,7 @@ Use [this form](https://airtable.com/shr6mk28x0fy3OrxN?prefill_Item=rubyf_ch1) t
 ## What Next?
 
 Go back [here](../09_putting_it_into_practice.md#reflect-and-review) to reflect on your progress before moving on.
+
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

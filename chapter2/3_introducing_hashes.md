@@ -8,7 +8,7 @@ Hashes are a bit like Arrays, because they also allow you to store a collection 
 
 What exactly does each element correspond to? It's hard to tell without labels and that's where Hashes come in. Most programming languages include something along the lines of a Hash. They might use a different name, like HashMap or Dictionary, but the basic concept is always the same.
 
-## Learning Objectives
+## Learning Objectives
 
 In this section, you will learn
 
@@ -33,7 +33,7 @@ Hashes are made up of key-value pairs. The _key_ is a label and the _value_ is t
 
 **Note that for arrays we use square brackets, but for hashes we use curly braces.**
 
-Now open IRB and create a few hashes of your own. You'll inevitably make a mistake at some point and Ruby will show you an error message. Try to understand it – new error messages can be learning opportunities!
+Now open IRB and create a few hashes of your own. You'll inevitably make a mistake at some point and Ruby will show you an error message. Try to understand it – new error messages can be learning opportunities!
 
 After you've created a few hashes, try using something other than a String for the keys. What works? What doesn't work?
 
@@ -48,7 +48,7 @@ Notice that what I typed and what got returned are not identical. Ruby allows yo
 
 In the examples below, we use Strings as keys but you're welcome to use symbols instead, if you prefer. You'll also see people doing this online, if you search for help.
 
-## Part Two: Reading Individual Values
+## Part Two: Reading Individual Values
 
 Once you have a hash, you can read an individual _value_ using its _key_.
 
@@ -99,7 +99,7 @@ If you feel like a challenge, try to find the method that returns all the `Hash`
 </details>
 <br>
 
-Now get some practice with that method and the ones listed below, some of which will require an argument – use the Ruby docs to find out more.
+Now get some practice with that method and the ones listed below, some of which will require an argument – use the Ruby docs to find out more.
 
 - `values`
 - `length`

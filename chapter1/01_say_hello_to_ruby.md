@@ -18,7 +18,7 @@ In this section, you'll learn:
 
 ## Part One: Executing Ruby Code in IRB
 
-IRB is a tool that allows you to execute Ruby code in an interactive way – you write some code, hit enter and the code is executed... then you write some more code and so on. It's extremely useful as sketchbook or notepad for code, where you can quickly experiment or explore ideas.
+IRB is a tool that allows you to execute Ruby code in an interactive way – you write some code, hit enter and the code is executed... then you write some more code and so on. It's extremely useful as sketchbook or notepad for code, where you can quickly experiment or explore ideas.
 
 To start IRB, open your terminal and type `irb`.  You'll notice that the prompt changes (from `%` to `>`, if you're a Mac).
 

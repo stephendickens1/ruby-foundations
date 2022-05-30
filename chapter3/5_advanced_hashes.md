@@ -5,9 +5,9 @@ In chapter 2, you learned how to create and manipulate hashes.
 ```ruby
 > # create a hash and assign it to the person variable
 > person = {'name' => 'jo', 'age' => 42, 'height' => 170}
-> # add a new key-value pair
+> # add a new key-value pair
 > person['pet'] = 'cat'
-> # add a new key-value pair
+> # add a new key-value pair
 > person['job'] = 'software engineer'
 > person
 => {'name' => 'jo', 'age' => 42, 'height' => 170, 'pet' => 'cat', 'job' => 'software engineer'}
@@ -50,7 +50,7 @@ The syntax for all these methods is basically the same, but the return values wi
 - `filter`
 - `reject`
 
-## Map and Each
+## Map and Each
 
 Both `map` and `each` also work with hashes. Try them out as well :)
 

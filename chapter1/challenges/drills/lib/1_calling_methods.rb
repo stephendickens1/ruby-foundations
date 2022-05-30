@@ -1,6 +1,6 @@
 # Below, you'll find lots of incomplete methods.
 # Each one takes a single argument.
-# Add a method body so that the method returns the correct value
+# Add a method body so that the method returns the correct value
 
 # It's possible to complete each challenge using a single method
 # Use the Ruby Docs and Google liberally
@@ -46,41 +46,41 @@ end
 # Integer methods
 
 # when the integer is 1
-# the method should return true
+# the method should return true
 # when the integer is 2
-# the method should return false
+# the method should return false
 def is_integer_odd?(integer)
   # your code goes here
 end
 
 # when the integer is 1
-# the method should return false
+# the method should return false
 # when the integer is 2
-# the method should return true
+# the method should return true
 def is_integer_even?(integer)
   # your code goes here
 end
 
 # when the integer is 1
-# the method should return 1.0
+# the method should return 1.0
 def convert_to_float(integer)
   # your code goes here
 end
 
 # when the integer is 1
-# the method should return '1'
+# the method should return '1'
 def convert_to_string(integer)
   # your code goes here
 end
 
 # when the integer is 2
-# the method should return 1
+# the method should return 1
 def return_previous_integer(integer)
   # your code goes here
 end
 
 # when the integer is 1
-# the method should return 2
+# the method should return 2
 def return_next_integer(integer)
   # your code goes here
 end

@@ -48,7 +48,7 @@ And that's it! The rest of the error message, in this case, is useless to us bec
 
 ## Another Error
 
-Now do this to generate one more error message and try to figure out its telling you (note the lower case `b`).
+Now do this to generate one more error message and try to figure out what it is telling you (note the lower case `b`).
 
 ```ruby
 > byeeeeeeeee

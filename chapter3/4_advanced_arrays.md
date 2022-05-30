@@ -5,7 +5,7 @@ In chapter 2, you learned how to define and add elements to ruby arrays.
 ```ruby
 > # create an array and assign it to a variable called numbers
 > numbers = [1,2,3]
-> # add the number 4
+> # add the number 4
 > numbers << 4
 => [1, 2, 3, 4]
 ```
@@ -21,7 +21,7 @@ And in the previous section of this chapter, you saw something new – a method 
 => {'service'=>'acebook', 'password'=>'password123', 'added_on'=>'22/03/22'}
 ```
 
-This brings us to a whole new family of methods – methods which 'take' (are called along with) blocks.
+This brings us to a whole new family of methods – methods which 'take' (are called along with) blocks.
 
 ## Learning Objectives
 
@@ -45,7 +45,7 @@ end
 
 ### The Anatomy of a Block
 
-Take `find` as an example – the block of code allows us to find an element based on pretty much whatever we want. Note that find only ever returns one element – the first one for which the block returns `true`.
+Take `find` as an example – the block of code allows us to find an element based on pretty much whatever we want. Note that find only ever returns one element – the first one for which the block returns `true`.
 
 ```ruby
 > # find the first entry where 'service' is equal to 'acebook'
@@ -116,7 +116,7 @@ What would the method definition look like?  For now, we're only going to work w
 
 ```ruby
 def middle_number_is?(array)
-  # get the middle number
+  # get the middle number
   middle_number = array[array.length / 2]
   # pass the middle number to the block using `yield`
   yield(middle_number)
@@ -177,6 +177,7 @@ Make some notes, or talk to a peer, about:
 - The anatomy of a block
 - The difference between printing to the terminal and returning something
 - What scope is
+
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

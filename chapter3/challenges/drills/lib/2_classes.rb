@@ -11,7 +11,7 @@
 # Class Name
 # Initialization args, if there are any
 # Method Name
-# Method arguments, if there are any
+# Method arguments, if there are any
 # Method return value
 # Examples, if needed
 # More methods, as needed
@@ -32,7 +32,7 @@ class Greeter
 end
 
 # Greeter
-# hello
+# hello
 # Takes one string as an arg (a name)
 # Returns 'Hello, Rita', if the arg is 'Rita'
 # goodbye
@@ -53,9 +53,9 @@ end
 # takes two numbers as args
 # multiplies one by the other
 # returns the result
-# subtract
+# subtract
 # takes two numbers as args
-# subtracts the second from the first
+# subtracts the second from the first
 # returns the result
 # divide
 # takes two numbers as args
@@ -68,7 +68,7 @@ end
 # Basket
 # add
 # takes one argument of any type
-# adds it to the list of items
+# adds it to the list of items
 # items
 # returns everything that has been added to the basket
 
@@ -77,10 +77,10 @@ end
 # takes one hash, representing a student, as an arg.
 # E.g. {'name' => 'Jo', 'employer' => 'NASA'}
 # adds the new student to the list of students
-# students
+# students
 # returns all the students who have been added to the cohort
 # employed_by
-# takes one string, the name of an employer, as an arg.
+# takes one string, the name of an employer, as an arg.
 # E.g. 'NASA'
 # returns only the students who work for that employer
 

@@ -11,15 +11,15 @@
 ## Arrays
 
 # first_element
-# takes one array as an arg
+# takes one array as an arg
 # returns the first element
 
 # second_element
-# takes one array as an arg
+# takes one array as an arg
 # returns the second element
 
 # last_element
-# takes one array as an arg
+# takes one array as an arg
 # returns the last element
 
 # first_two_elements
@@ -31,16 +31,16 @@
 # returns the first three elements
 
 # total
-# takes one array of numbers as an arg
+# takes one array of numbers as an arg
 # adds all the numbers together
 # returns the total
 
 # lowest_number
-# takes one array of numbers as an arg
+# takes one array of numbers as an arg
 # returns the lowest value
 
 # highest_number
-# takes one array of numbers as an arg
+# takes one array of numbers as an arg
 # returns the highest value
 
 # the_beatles
@@ -74,15 +74,15 @@
 # add_to_array
 # takes one array and one string as args
 # adds the string to the array
-# returns the new array
+# returns the new array
 
-## Hashes
+## Hashes
 
 # new_band_member
 # takes a hash of one key-value pair as an arg
 # merges it wth the existing hash of band members
 # returns the new hash
-# if the arg is {'drummer' => 'kermit'}
+# if the arg is {'drummer' => 'kermit'}
 # returns {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'}
 
 # all_values
@@ -96,7 +96,7 @@
 # remove_nils
 # takes one hash an an arg
 # removes key-values pairs where the value is nil
-# returns the remaining key-value pairs as a hash
+# returns the remaining key-value pairs as a hash
 
 # key_value_swap
 # takes one hash as an arg

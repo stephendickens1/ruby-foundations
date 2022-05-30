@@ -73,7 +73,7 @@ If you want something to happen automatically, when a new instance of a class is
 => #<Greeter:0x00007fdc579a6498>
 ```
 
-Above, we see that `puts "Hello!"` is executed when you create an instance of `Greeter` using `.new` – we didn't need to call `initialize` ourselves, for that to happen as it was called automatically.
+Above, we see that `puts "Hello!"` is executed when you create an instance of `Greeter` using `.new` – we didn't need to call `initialize` ourselves, for that to happen as it was called automatically.
 
 Now define some of your own classes and play with the `initialize` method.
 
@@ -121,7 +121,7 @@ All the arguments which we provide to `.new` will be passed into the `initialize
 > person5 = Person.new("Claude Shannon", "October 8", "C")
 ```
 
-Here's a challenge for you – add a method to the `Person` class that will return the person's name. The solution is below.
+Here's a challenge for you – add a method to the `Person` class that will return the person's name. The solution is below.
 
 <details>
 <summary>Solution</summary>
@@ -161,7 +161,7 @@ Now try this...
 => # what get's returned here?
 ```
 
-What happens when you run this? Try to explain what you observe – you'll find our explanation in the next section.
+What happens when you run this? Try to explain what you observe – you'll find our explanation in the next section.
 
 ## Reflect and Review
 

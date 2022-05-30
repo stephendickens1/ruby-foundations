@@ -35,10 +35,10 @@ class Greeter
 end
 
 # Animal
-# no methods required
+# no methods required
 
 # Vehicle
-# no methods required
+# no methods required
 
 # Cat
 # speak
@@ -52,7 +52,7 @@ end
 # block_caps
 # takes a string as an arg
 # returns the string in block caps
-# lower_case
+# lower_case
 # takes a string as an arg
 # returns the string in lower case
 
@@ -64,9 +64,9 @@ end
 # takes two numbers as args
 # multiplies one by the other
 # returns the result
-# subtract
+# subtract
 # takes two numbers as args
-# subtracts the second from the first
+# subtracts the second from the first
 # returns the result
 # divide
 # takes two numbers as args
@@ -75,23 +75,23 @@ end
 
 # Apprentice
 # is instatiated with two strings
-# a name and a cohort name
+# a name and a cohort name
 # name
-# returns the name
+# returns the name
 # cohort
 # returns the cohort
 # full_details
-# returns name and cohort, separated by one comma and one space
-# 'E.g. "Rita Smith, June 2030"'
+# returns name and cohort, separated by one comma and one space
+# 'E.g. "Rita Smith, June 2030"'
 
 # Cohort
-# is instantiated with three strings
-# a name, a start_date and an end_date
+# is instantiated with three strings
+# a name, a start_date and an end_date
 # name
 # returns the cohort name
 # start_date
 # returns the start_date as a Date object
 # end_date
-# returns the end_date as a Date object
+# returns the end_date as a Date object
 # duration
 # returns the number of days between start_date and end_date

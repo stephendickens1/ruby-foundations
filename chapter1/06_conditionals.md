@@ -2,11 +2,13 @@
 
 Sometimes, in real life, we might want to act only when certain conditions are met. For example, you might decide that you're only going for a picnic if it's not raining or that you'll only try to make a cake if you have all the ingredients.
 
-<!-- OMITTED -->
+![Flowchart representing the above decisions](../images/ifs_flowchart.svg)
+
+<!-- OMITTED -->  
 
 In programming, as in life, we need the ability to make decisions based on data.
 
-## Learning Objectives
+## Learning Objectives
 
 In this section, you'll learn
 
@@ -25,7 +27,7 @@ A really common way to implement this in Ruby is to use an `if` statement.  Here
 > end
 ```
 
-_This might seem like a silly example, because we could just count the letters in `name`. But imagine that you don't know what value `name` holds – maybe it came from a user and maybe it will be different for every user.
+_This might seem like a silly example, because we could just count the letters in `name`. But imagine that you don't know what value `name` holds – maybe it came from a user and maybe it will be different for every user.
 
 Let's break down the `if` statement. On the first line (after assigning `name`) we have `if(name.length > 25)`. The part in brackets will _resolve_ to (return) either `true` or `false`. If it resolves to `true`, the code on the third line `"that's a long name"` is executed (and the remaining code is skipped). If `name.length > 25` resolves to `false`, the next line is skipped. Then we have a _catch all_ (else) clause. It covers all situations where `name.length > 25` resolves to false. Note that `if` statements end with `end`.
 

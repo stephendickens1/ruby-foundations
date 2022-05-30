@@ -17,7 +17,7 @@ end
 
 # when the number is greater than or equal to 10
 # deduct 10 and return the result
-# when the number is below 10
+# when the number is below 10
 # return the number
 def deduct_10_if_possible(number)
 end

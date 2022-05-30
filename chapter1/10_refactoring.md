@@ -1,6 +1,6 @@
 # Refactoring
 
-Right after all your tests go green, you should pause for a moment to consider how you got there and whether you could change your code to make it better in some way – this is the art of refactoring.
+Right after all your tests go green, you should pause for a moment to consider how you got there and whether you could change your code to make it better in some way – this is the art of refactoring.
 
 Whilst refactoring, we don't add any new features (such as new rules about what makes a valid password) but we might add new methods. Through refactoring, we try to end up with code that is:
 

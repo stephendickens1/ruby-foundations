@@ -12,7 +12,7 @@ In this section, you've worked towards 6 of the module's 10 learning objectives.
 - Describe and use methods :point_left:
 - Describe and use classes
 
-If a lot of these topics were new to you, it's very much worth taking 15 minutes to review them. Use the following questions to guide you and, if you get stuck, reach out to one of your peers – that will allow them to further test themselves.
+If a lot of these topics were new to you, it's very much worth taking 15 minutes to review them. Use the following questions to guide you and, if you get stuck, reach out to one of your peers – that will allow them to further test themselves.
 
 1. What is the difference between a variable and a constant?
 2. Name two ways of executing Ruby code.

@@ -94,7 +94,7 @@ To get all the details about Acebook, we'd need to search for the corresponding 
 => {"service"=>"acebook", "password"=>"password123", "added_on"=>"22/03/22"}
 ```
 
-## Making a Decision
+## Making a Decision
 
 Ultimately, it's your choice. Personally, I think it comes down to a choice between option 2 or option 3. Both of those options do a better job than option 1 when it comes to communicating which pieces of data belong together and they both allow you to retrieve all the information for a service in one step. This might not seem like a big deal right now, but imagine how messy things could get, with option 1, if you were to add more properties for each service.
 

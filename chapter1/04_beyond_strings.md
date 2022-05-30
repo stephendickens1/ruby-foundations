@@ -18,7 +18,7 @@ But what if you want to do maths or something else that cannot be done with Stri
 
 Arrays and Hashes are complex data types that are introduced in the next chapter. The rest are explained below.
 
-## Learning Objectives
+## Learning Objectives
 
 In this section, you will learn
 - What Floats are and how they are used
@@ -99,7 +99,7 @@ But bear with us, not least because they are very commonly used in Ruby for some
 
 Symbols are (almost) any sequence of characters preceded by a colon, like this `:hello` and this `:hello_again!`. So they're a bit like a special kind of String.
 
-One of the key differences is that you cannot change them – they are immutable. If you had the String `'makers'` assigned to the variable `'training_provider'` you could do `training_provider.chop!` and that would remove the last letter, leaving `'maker'` – give it a try now.
+One of the key differences is that you cannot change them – they are immutable. If you had the String `'makers'` assigned to the variable `'training_provider'` you could do `training_provider.chop!` and that would remove the last letter, leaving `'maker'` – give it a try now.
 
 At first, it might seem like you can mutate a symbol, because you can do this...
 
@@ -116,14 +116,14 @@ But that's not actually changing the original symbol, it's creating a new symbol
 > # call the upcase method on the variable
 > greeting.upcase
 > :HELLO
-> # the symbol assigned to the variable remains unchanged
+> # the symbol assigned to the variable remains unchanged
 > greeting
 => :hello
 ```
 
 There are many more Symbol methods, which you can find in the [Ruby docs](https://ruby-doc.org/core-3.0.0/Symbol.html).
 
-## Booleans
+## Booleans
 
 Booleans are a special data type named after George Boole and there are only two different values of a Boolean: `true` and `false`.
 
