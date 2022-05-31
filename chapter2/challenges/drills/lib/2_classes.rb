@@ -1,3 +1,5 @@
+require 'date'
+
 # In this set of exercises you'll build small classes
 # Some will have no methods
 # Some will have one or two simple methods

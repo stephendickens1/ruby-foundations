@@ -46,6 +46,8 @@ You might see this at some point...
 
 It means that RSpec cannot find your tests and, normally, it's the result of running `rspec` in the wrong directory.
 
+We've added some configuration in the `.rspec` file so that when a test fails, rspec will stop running and show you the output from that failing test. This allows you to focus on one test at a time. Once you make that failing test pass, when you do `rspec` again the next test will run and fail.
+
 ## Drills
 
 Drills are short, tightly focused exercises which get harder as you progress. You will only need to work in the `lib` directory. Do not change anything in the `spec` directory.
@@ -58,7 +60,7 @@ Drills are short, tightly focused exercises which get harder as you progress. Yo
     * For chapter 1, that's `/drills/lib/1_calling_methods.rb`
     * You'll find further instructions there
 2. Work on the first challenge
-3. Run `rspec` to check your answers
+3. Run `rspec` to check your answer
 4. Keep going until all the tests for that set of drills are passing
 5. Move on to the next set
 6. Keep going until all the tests for all the sets are passing

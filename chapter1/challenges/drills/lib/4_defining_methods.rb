@@ -28,7 +28,6 @@ end
 # say goodbye
 # takes no args
 # returns 'goodbye'
-
 # say_hello_to
 # takes one string as an arg
 # example: the arg is `Sam`
@@ -82,12 +81,12 @@ end
 
 # one_odd?
 # takes two numbers as args
-# returns true if one of them is odd
+# returns true if at least one of them is odd
 # otherwise, returns false
 
 # one_even?
 # takes two numbers as args
-# returns true if one of them is even
+# returns true if at least one of them is even
 # otherwise returns false
 
 # rev_sym_caps

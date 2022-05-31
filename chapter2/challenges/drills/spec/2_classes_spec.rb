@@ -12,7 +12,7 @@ RSpec.describe 'classes' do
   describe 'Vehicle' do
     describe '.new' do
       it 'returns an instance of Vehicle' do
-        expect(Vehicle.new).to to be_a Vehicle
+        expect(Vehicle.new).to be_a Vehicle
       end
     end
   end
@@ -51,27 +51,30 @@ RSpec.describe 'classes' do
   end
 
   describe 'Calculator' do
+
+    subject { Calculator.new }
+
     describe 'add' do
       it 'takes two numbers and returns the total' do
-        expect(add(5,5)).to eq 10
+        expect(subject.add(5,5)).to eq 10
       end
     end
 
     describe 'multiply' do
       it 'takes two numbers and multiplies one by the other' do
-        expect(multiply(5,5)).to eq 25
+        expect(subject.multiply(5,5)).to eq 25
       end
     end
 
     describe 'subtract' do
       it 'takes two numbers and subctracts the second from the first' do
-        expect(subtract(5,4)).to eq 1
+        expect(subject.subtract(5,4)).to eq 1
       end
     end
 
     describe 'divide' do
       it 'takes two numbers and divides the first by the second' do
-        expect(divide(10,5)).to eq 2
+        expect(subject.divide(10,5)).to eq 2
       end
     end
 
@@ -83,7 +86,7 @@ RSpec.describe 'classes' do
 
     describe 'name' do
       it 'returns name' do
-        expect(subject.new).to eq 'Jude'
+        expect(subject.name).to eq 'Jude'
       end
     end
 

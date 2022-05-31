@@ -2,15 +2,6 @@ require_relative '../lib/password_manager_2'
 require 'timecop'
 
 RSpec.describe PasswordManager2 do
-  describe '#remove' do
-    it 'removes a service' do
-      password_manager = PasswordManager2.new
-      password_manager.add('acebook', 'password123')
-      password_manager.remove('acebook')
-      expect(password_manager.services).to eq []
-    end
-  end
-
   describe '#add' do
     context 'when the password and service name are unique' do
       it 'is added successfully' do
@@ -37,6 +28,15 @@ RSpec.describe PasswordManager2 do
         password_manager.add('acebook', 'qwerty789')
         expect(password_manager.services).to eq ['acebook']
       end
+    end
+  end
+
+  describe '#remove' do
+    it 'removes a service' do
+      password_manager = PasswordManager2.new
+      password_manager.add('acebook', 'password123')
+      password_manager.remove('acebook')
+      expect(password_manager.services).to eq []
     end
   end
 

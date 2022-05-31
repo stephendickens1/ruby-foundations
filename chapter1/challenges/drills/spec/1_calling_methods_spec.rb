@@ -34,9 +34,9 @@ RSpec.describe 'calling methods' do
     end
   end
 
-  describe 'convert_to_symbol' do
+  describe 'string_to_symbol' do
     it 'should return the string as a symbol' do
-      expect(convert_to_symbol('hello')).to eq :hello
+      expect(string_to_symbol('hello')).to eq :hello
     end
   end
 
@@ -60,15 +60,15 @@ RSpec.describe 'calling methods' do
     end
   end
 
-  describe 'convert_to_float' do
+  describe 'integer_to_float' do
     it 'should return a float of the same value' do
-      expect(convert_to_float(1)).to eq 1.0
+      expect(integer_to_float(1)).to eq 1.0
     end
   end
 
-  describe 'convert_to_string' do
+  describe 'integer_to_string' do
     it 'should return the integer as a string' do
-      expect(convert_to_string(1)).to eq '1'
+      expect(integer_to_string(1)).to eq '1'
     end
   end
 
@@ -96,15 +96,15 @@ RSpec.describe 'calling methods' do
     end
   end
 
-  describe 'convert_to_string' do
+  describe 'float_to_string' do
     it 'should return the floar as a string' do
-      expect(convert_to_string(1.1)).to eq '1.1'
+      expect(float_to_string(1.1)).to eq '1.1'
     end
   end
 
-  describe 'convert_to_integer' do
+  describe 'float_to_integer' do
     it 'should round down and return an integer' do
-      expect(convert_to_integer(1.8)).to eq 1
+      expect(float_to_integer(1.8)).to eq 1
     end
   end
 
@@ -130,13 +130,13 @@ RSpec.describe 'calling methods' do
 
   describe 'swap_the_case_of_a_symbol' do
     it 'should return a case-swapped symbol' do
-      expect(swap_the_case_of_a_symbol(:Hello)).to eq ':hELLO'
+      expect(swap_the_case_of_a_symbol(:Hello)).to eq :hELLO
     end
   end
 
-  describe 'convert_to_string' do
+  describe 'symbol_to_string' do
     it 'should return the symbol as a string' do
-      expect(convert_to_string(:hello)).to eq 'hello'
+      expect(symbol_to_string(:hello)).to eq 'hello'
     end
   end
 
@@ -154,7 +154,7 @@ RSpec.describe 'calling methods' do
 
   describe 'convert_to_string' do
     it 'should return the boolean as a string' do
-      expect(convert_to_string(true)).to eq 'true'
+      expect(boolean_to_string(true)).to eq 'true'
     end
   end
 end

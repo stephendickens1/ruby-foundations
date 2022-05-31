@@ -39,7 +39,7 @@ end
 
 # when the string is 'hello'
 # the method should return :hello
-def convert_to_symbol(string)
+def string_to_symbol(string)
   # your code goes here
 end
 
@@ -63,13 +63,13 @@ end
 
 # when the integer is 1
 # the method should return 1.0
-def convert_to_float(integer)
+def integer_to_float(integer)
   # your code goes here
 end
 
 # when the integer is 1
 # the method should return '1'
-def convert_to_string(integer)
+def integer_to_string(integer)
   # your code goes here
 end
 
@@ -101,13 +101,13 @@ end
 
 # when the float is 1.1
 # the method should return '1.1'
-def convert_to_string(float)
+def float_to_string(float)
   # your code goes here
 end
 
 # when the float is 1.1
 # the method should return 1
-def convert_to_integer(float)
+def float_to_integer(float)
   # your code goes here
 end
 
@@ -137,7 +137,7 @@ end
 
 # when the symbol is :hello
 # the method should return 'hello'
-def convert_to_string(symbol)
+def symbol_to_string(symbol)
   # your code goes here
 end
 
@@ -159,7 +159,7 @@ end
 # the method should return 'true'
 # when the boolean is false
 # the method should return false
-def convert_to_string(boolean)
+def boolean_to_string(boolean)
   # your code goes here
 end
 

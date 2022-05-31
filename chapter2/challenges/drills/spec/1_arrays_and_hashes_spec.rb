@@ -67,9 +67,9 @@ RSpec.describe 'arrays and hashes' do
     end
   end
 
-  describe 'remove_nils' do
+  describe 'remove_nils_from_array' do
     it 'takes an array and returns an array with no nils' do
-      expect(remove_nils([nil, 1, 2, 3])).to eq [1, 2, 3]
+      expect(remove_nils_from_array([nil, 1, 2, 3])).to eq [1, 2, 3]
     end
   end
 
@@ -105,13 +105,13 @@ RSpec.describe 'arrays and hashes' do
 
   describe 'all_keys' do
     it 'takes one hash and returns all the keys' do
-      expect(all_values({'one' => 1, 'two' => 2, 'three' => 3})).to eq ['one', 'two', 'three']
+      expect(all_keys({'one' => 1, 'two' => 2, 'three' => 3})).to eq ['one', 'two', 'three']
     end
   end
 
-  describe 'remove_nils' do
+  describe 'remove_nils_from_hash' do
     it 'takes one hash and a hash with no nils' do
-      expect(remove_nils({'one' => nil, 'two' => 2, 'three' => 3})).to eq({'two' => 2, 'three' => 3})
+      expect(remove_nils_from_hash({'one' => nil, 'two' => 2, 'three' => 3})).to eq({'two' => 2, 'three' => 3})
     end
   end
 

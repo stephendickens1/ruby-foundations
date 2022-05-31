@@ -1,12 +1,6 @@
 require_relative '../lib/4_defining_methods'
 
 RSpec.describe 'defining methods' do 
-  describe 'add_ten' do 
-    it 'adds ten to the number given' do
-      expect(add_ten(10)).to eq 20
-    end
-  end
-
   describe 'say_hello' do 
     it 'returns "hello"' do
       expect(say_hello).to eq "hello"
@@ -15,7 +9,7 @@ RSpec.describe 'defining methods' do
 
   describe 'say goodbye' do 
     it 'returns "goodbye"' do
-      expect(say goodbye).to eq "goodbye"
+      expect(say_goodbye).to eq "goodbye"
     end
   end
 
@@ -95,7 +89,7 @@ RSpec.describe 'defining methods' do
     end
 
     it 'returns false when given 1 and 3' do
-      expect(both_even?(1, 3)).to eq
+      expect(both_even?(1, 3)).to eq false
     end
   end
 
@@ -105,11 +99,11 @@ RSpec.describe 'defining methods' do
     end
 
     it 'returns false when given 2 and 4' do
-      expect(one_odd?(2, 4)).to eq
+      expect(one_odd?(2, 4)).to eq false
     end
 
     it 'returns true when given 1 and 3' do
-      expect(one_odd?(1, 3)).to eq
+      expect(one_odd?(1, 3)).to eq true
     end
   end
 
@@ -118,8 +112,8 @@ RSpec.describe 'defining methods' do
       expect(one_even?(1, 2)).to eq true
     end
 
-    it 'returns false when given 2 and 4' do
-      expect(one_even?(2, 4)).to eq false
+    it 'returns true when given 2 and 4' do
+      expect(one_even?(2, 4)).to eq true
     end
 
     it 'returns false when given 1 and 3' do

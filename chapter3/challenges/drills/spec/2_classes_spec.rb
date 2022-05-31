@@ -113,15 +113,15 @@ RSpec.describe 'classes' do
     subject {
       Person.new(
         {
-          'name' => 'jo',
+          'name' => 'Jo',
           'pets' => [
-            {'name' => 'paulo', 'animal' => 'cat'},
-            {'name' => 'edith', 'animal' => 'dog'},
-            {'name' => 'pawel', 'animal' => 'goldfish'}
+            {'name' => 'Paulo', 'animal' => 'cat'},
+            {'name' => 'Edith', 'animal' => 'dog'},
+            {'name' => 'Pawel', 'animal' => 'goldfish'}
           ],
           'addresses' => [
-            {'name' => 'work', 'building' => '12', 'street' => 'whitehall'},
-            {'name' => 'home', 'building' => '1', 'street' => 'north lane'}
+            {'name' => 'work', 'building' => '12', 'street' => 'Whitehall'},
+            {'name' => 'home', 'building' => '1', 'street' => 'North Lane'}
           ]
         }
       )
@@ -144,7 +144,7 @@ RSpec.describe 'classes' do
     describe 'pets' do
       it 'returns pets, nicely formatted' do
         expect(subject.pets)
-          .to eq 'Jo has a cat called Paulo, a dog called Edith and a goldfish called Pawel'
+          .to eq "Jo has 3 pets\n- a cat called Paulo\n- a dog called Edith\n- a goldfish called Pawel\n"
       end
     end
   end

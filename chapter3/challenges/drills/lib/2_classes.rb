@@ -94,10 +94,11 @@ end
     {'name' => 'gwen', 'animal' => 'goldfish'}
   ],
   'addresses' => [
-    {'name' => 'work', 'building' => '50', 'street' => 'comercial street'},
-    {'name' => 'home', 'building' => '10', 'street' => 'south street'}
+    {'name' => 'work', 'building' => '50', 'street' => 'Comercial Street'},
+    {'name' => 'home', 'building' => '10', 'street' => 'South Street'}
   ]
 }
+
 # work_adress
 # takes no args
 # returns the work address in a nice format
@@ -109,4 +110,10 @@ end
 # pets
 # takes no args
 # returns a nice summary of the person's pets
-# E.g. 'Alex has a cat called Arthur, a dog called Judith and a goldfish called Gwen'
+
+# E.g.
+# Alex has 3 pets
+# - a cat called Arthur
+# - a dog called Judith
+# - a goldfish called Gwen
+#

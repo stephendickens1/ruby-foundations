@@ -82,6 +82,7 @@
 # takes a hash of one key-value pair as an arg
 # merges it wth the existing hash of band members
 # returns the new hash
+# the existing band memebers are: {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'
 # if the arg is {'drummer' => 'kermit'}
 # returns {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'}
 
