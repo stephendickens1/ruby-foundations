@@ -17,6 +17,10 @@ If you had to do this, every time that you needed to show someone's net monthly 
 
 Your codebase would be more concise, less repetitive and, last but not least, that long series of calculations would get it's own meaningful name (the method's name).
 
+## Video
+
+Here's the [video](https://youtu.be/Sn7OCUMJQg4).
+
 ## Learning objectives
 
 In this section, you will learn how to:
@@ -74,17 +78,10 @@ And so on :)
 
 ## Over to You
 
-Now get some practice by defining some methods, in IRB, that:
+In a new file, define and execute some methods, one for each task below...
 
-- Include an if statement
-- Do some basic maths using numbers passed in as arguments
-- Concatenate some Strings
-
-Now define some methods and execute them from a file.
-
-## Further Resources
-
-- This section in [video form](https://youtu.be/Sn7OCUMJQg4)
+- Concatenate all the names of everyone in your family
+- Calculate the number of seconds in 12 weeks
 
 ## Reflect and Review
 
@@ -97,7 +94,7 @@ In a few sentences, describe:
 - The syntax / structure of a method
 
 
-[Next Challenge](09_putting_it_into_practice.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=08_defining_methods.md&redirect=chapter1/09_putting_it_into_practice.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

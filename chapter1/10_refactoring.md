@@ -10,6 +10,10 @@ Whilst refactoring, we don't add any new features (such as new rules about what 
 
 The ultimate goal is to generate code that is easy to change because, if you can be sure of one thing in programming, it's that changes will be necessary! It might be that your client changes their mind, there was a misunderstanding, a new user need is discovered or maybe the application just continues to grow as planned. All of these scenarios involve changing, or building upon, the code that you already have.
 
+## Video
+
+Here's the [video](https://youtu.be/PJWSKKMTVyo) for this section.
+
 ## Learning Objectives
 
 In this section, you will learn
@@ -113,25 +117,21 @@ end
 
 That method which checks for special characters is a bit long, so we can shorten it? Can we check for all of the special characters at once? Yes, we can, using a regex! Regex stands for Regular Expression and they are used to match patterns (the presence of some specific characters) in text. They are quite tricky to get your head around at first but they are very powerful and, with a bit of trial and error, you can get a lot of things done with them. Try [Rubular](https://rubular.com/) to see how to use them.
 
-Let's refactor our `special_chars_included?` method to use a regex. Let's also assign the regex to a constant, so that we can give it a meaningful name.
+Let's refactor our `special_chars_included?` method to use a regex. Let's also assign the regex to a variable, so that we can give it a meaningful name.
 
 ```ruby
-REQUIRED_CHARS = /[!@$%&]/
+require_chars = /[!@$%&]/
 
 def special_chars_included?(password)
   # `/[!@$%&]/` is the regex
   # it matches (detects) any of the 5 special characters
-  if password =~ REQUIRED_CHARS
+  if password =~ required_chars
     return true
   else
     return false
   end
 end
 ```
-
-## Further Resources
-
-- This section in [video form](https://youtu.be/PJWSKKMTVyo)
 
 ## Reflect and Review
 
@@ -147,7 +147,7 @@ In a few sentences, explain:
 - Which of the two suggested refactors you prefer
 
 
-[Next Challenge](11_review.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=10_refactoring.md&redirect=chapter1/11_review.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

@@ -4,6 +4,10 @@ If you want to build a Ruby program iteratively, which is always the best approa
 
 So we need to be able to write code in files and execute it from those files. Let's give that a try now.
 
+## Video
+
+Here's the [video](https://youtu.be/XtreBh7TcyQ) for this section.
+
 ## Learning Objectives
 
 In this section, you'll learn:
@@ -23,7 +27,7 @@ Then create a file called `hello_world.rb`.
 
 The file will be inside your home directory – open it up in your text editor, add the following Ruby code and save the file using `command + s`.
 
-**Below, `puts` is used to print `"Hello world!` to the terminal. We need it here because simply doing `"Hello, World!"` wouldn't result in anything that we can see from the terminal (do try it).**
+**Below, `puts` is used to print `"Hello world!` to the terminal. We need it here because simply doing `"Hello, World!"` wouldn't result in anything that we can see from the terminal (do try it). You'll find further guidance on when to use `puts` at the end of this section.**
 
 ```ruby
 # in hello_world.rb – lines that start with # are comments (you don't need to type them out)
@@ -47,9 +51,63 @@ Now use this as a chance to practice some of the things we've covered previously
 - Use some of the String methods you encountered in earlier sections
 - Execute the code using `ruby new_file.rb` if, for example, your file is called `new_file.rb`
 
-## Further Resources
+## When do I use `puts`?
 
-- This section in [video form](https://youtu.be/XtreBh7TcyQ)
+Let's imagine the following code:
+
+```ruby
+word = "Ruby"
+uppercase_word = word.upcase
+"#{word} upcased is #{uppercase_word}"
+```
+
+If we run this in IRB here's what we get:
+
+```ruby
+> word = "Ruby"
+=> "Ruby"
+> uppercase_word = word.upcase
+=> "RUBY"
+> "#{word} upcased is #{uppercase_word}"
+=> "Ruby upcased is RUBY"
+```
+
+That's nice for us. We get to see all the results in the middle so we can check they are correct. This is very useful and it is what IRB is designed for. But users don't want to see all of those results in the middle. They just want the final results! So when we're running Ruby in a file (like `hello_world.rb`) Ruby keeps all the return values to itself and doesn't show them to the user. To show something to the user, we have to say so explicitly. This is what `puts` does. It stands for **put** **s**tring (to the terminal so the user can see it).
+
+We could do something like this, in a file called `upcase_ruby.rb`
+
+```ruby
+ # File: upcase_ruby.rb
+word = "Ruby"
+uppercase_word = word.upcase
+puts "#{word} upcased is #{uppercase_word}"
+```
+
+And then execute the code...
+
+```shell
+; ruby upcase_ruby.rb
+```
+
+To see this in the terminal...
+
+```shell
+Ruby upcased is RUBY
+```
+
+To signal that we're showing something to the user and rather than storing a value for later use, `puts` doesn't return anything. Look:
+
+```ruby
+> greeting = puts "Hello"
+> greeting
+=> nil
+```
+
+Here's a rule of thumb:
+1. Is this something you want to show the user right now with no further
+processing? If so, use `puts`.
+2. Is this something the program will need to do some further work with before
+it's ready for the user? If so, don't use `puts`.
 
 ## Reflect and Review
 
@@ -62,22 +120,8 @@ In a few sentences, explain:
 - What happens when you try to execute code from a file that doesn't exist
 - The pros and cons of this new approach to code execution
 
-**IMPORTANT NOTE**
 
-It's important to note that `puts` does not return a `String`. It prints it to the terminal. These two things look very, very similar but there is a crucial difference.  Try this...
-
-```ruby
-> greeting = puts "Hello"
-> greeting
-=> nil
-```
-
-Technically, `puts` sends data to something called `stdout` which is short for _standard output_.  This just happens to be your terminal, which is also where you see return values, hence the potential for confusion. In the following materials, we tend to avoid using `puts` (or similar methods), but there will be some moments when that is not possible.
-
-If you choose to think of methods as machines, which is a reasonable analogy, you might imagine that return values appear on conveyor belt coming out of the machine and in that same general area there's also a screen to which things can be printed. `puts` sends things to the screen, but doesn't put anything on the conveyor belt. `return` values sometimes appear on the screen and always appear on the conveyor belt.
-
-
-[Next Challenge](08_defining_methods.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=07_executing_ruby_files.md&redirect=chapter1/08_defining_methods.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

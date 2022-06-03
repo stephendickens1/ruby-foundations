@@ -2,6 +2,9 @@
 
 We ended the previous section on a cliffhanger, trying to decipher the meaning of an error message. In this short section, you'll see how to break it down and extract useful information.
 
+## Video
+
+Here's the [video](https://youtu.be/MicYD2bi7_c) for this section.
 ## Learning Objectives
 
 By the end of this section, you'll be able to:
@@ -14,51 +17,50 @@ By the end of this section, you'll be able to:
 You probably got something a lot like this at the end of the last section. Did you figure out what it means?
 
 ```ruby
-> Hello
-Traceback (most recent call last):
-        4: from /Users/eddieandress/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `<main>'
-        3: from /Users/eddieandress/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `load'
-        2: from /Users/eddieandress/.rvm/rubies/ruby-2.7.0/lib/ruby/gems/2.7.0/gems/irb-1.2.1/exe/irb:11:in `<top (required)>'
-        1: from (irb):1
-NameError (uninitialized constant Hello)
+> hello
+(irb):1:in '<main>': undefined local variable or method 'hello' for main:Object (NameError)
+Did you mean?  help
+	from /Users/eddieandress/.rvm/rubies/ruby-3.0.1/lib/ruby/gems/3.0.0/gems/irb-1.3.5/exe/irb:11:in '<top (required)>'
+	from /Users/eddieandress/.rvm/rubies/ruby-3.0.1/bin/irb:23:in 'load'
+	from /Users/eddieandress/.rvm/rubies/ruby-3.0.1/bin/irb:23:in '<main>'
 2.7.0 :002 >
 ```
 
-Because we didn't use quotation marks, Ruby doesn't recognise `Hello` as a `String`. Instead, `Hello` is interpreted as constant and then Ruby tells us that this constant hasn't been assigned (or _initialized_).
+Because we didn't use quotation marks, Ruby doesn't recognise `hello` as a `String`. Instead, `hello` is interpreted as a variable, or method (more about those later) which has not yet been defined. I.e. Ruby doesn't know what that `hello` thing is, only that it's not a String!
+
+In this case, the most useful part of the error message is the first line:
 
 ```ruby
-NameError (uninitialized constant Hello)
+(irb):1:in '<main>': undefined local variable or method 'hello' for main:Object (NameError)
 ```
 
-You might now ask – don't constants have to be in BLOCK CAPS?? Well, not _always_, no.  There are some special cases in which constants only have their first letter capitalised. You'll encounter one of these later on in this module and, also, `String` is actually one example of that. You'll learn more about this type of constant later in this module but, for now, just know that they exist.
-
-The next line up tells us that this uninitialized constant was found on line 1. This is indicated by the `1` at the **end** of the line, not the start.
+Let's break it down. The start of that first line, tells us that the error is on line 1:
 
 ```ruby
-1: from (irb):1
+(irb):1
 ```
 
-If we'd been using IRB for a while and had entered some other commands prior to this one, placing the uninitialized constant on line 32, we would see this instead.
+If we'd been using IRB for a while and had entered some other commands prior to this one, placing the error on line 11, we would see this instead.
 
 ```ruby
-1: from (irb):32
+(irb):11
 ```
 
-And that's it! The rest of the error message, in this case, is useless to us because it points to code that is part of the Ruby library (and we can be reasonably sure that is not the cause of our problem).
+The middle bit is where `undefined method or variable` is expressed:
+
+```ruby
+undefined local variable or method 'hello'
+```
+
+The rest of this error message is less useful to us because it points to code that is part of the Ruby library (and that is very rarely the source of our problems).
 
 ## Another Error
 
-Now do this to generate one more error message and try to figure out what it is telling you (note the lower case `b`).
+Now do this to generate one more error message and try to figure out what it is telling you.
 
 ```ruby
-> byeeeeeeeee
+> 1 + 'a'
 ```
-
-## Further Resources
-
-- This section in [video form](https://youtu.be/MicYD2bi7_c)
-- [A really awesome blog post about Ruby error messages](https://dev.to/jeremy/the-blog-post-about-ruby-error-messages-i-wish-id-had-when-i-started-programming-45ef)
-
 ## Reflect and Review
 
 In this section, we picked apart an error message to find the useful information. Hopefully, you'll welcome the next one you see as a helpful old friend :)
@@ -69,7 +71,7 @@ In this section, we picked apart an error message to find the useful information
 - Can you resolve to say "That's interesting!" next time you see an error message?
 
 
-[Next Challenge](03_beyond_concatenation.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=02_error_messages.md&redirect=chapter1/03_beyond_concatenation.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

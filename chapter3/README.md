@@ -7,7 +7,6 @@ In this chapter, you'll work towards 8 of the module's 10 learning objectives.
 - Execute Ruby code in two different ways :point_left:
 - Make a plan using problem decomposition and experimentation :point_left:
 - Describe and use variables :point_left:
-- Describe and use constants
 - Describe and use conditionals :point_left:
 - Describe and use arrays :point_left:
 - Describe and use hashes :point_left:
@@ -28,13 +27,13 @@ Password Manager is great but it lacks a few really useful features. The next it
 
 ## Contents
 
-1. [Planning](./1_planning.md)
-2. [Choosing a Data Structure Part I](./2_choosing_a_data_structure_i.md)
-3. [Choosing a Data Structure Part II](./3_choosing_a_data_structure_ii.md)
-4. [Advanced Arrays](./4_advanced_arrays.md)
-5. [Advanced Hashes](./5_advanced_hashes.md)
-6. [Putting it Into Practice](./6_putting_it_into_practice.md)
-7. [Review](./7_review.md)
+1. [Planning](./01_planning.md)
+2. [Choosing a Data Structure Part I](./02_choosing_a_data_structure_i.md)
+3. [Choosing a Data Structure Part II](./03_choosing_a_data_structure_ii.md)
+4. [Advanced Arrays](./04_advanced_arrays.md)
+5. [Advanced Hashes](./05_advanced_hashes.md)
+6. [Putting it Into Practice](./06_putting_it_into_practice.md)
+7. [Review](./07_review.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

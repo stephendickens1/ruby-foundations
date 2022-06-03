@@ -7,7 +7,6 @@ In this chapter, you'll work towards 6 of the module's 10 learning objectives.
 - Execute Ruby code in two different ways :point_left:
 - Make a plan using problem decomposition and experimentation :point_left:
 - Describe and use variables :point_left:
-- Describe and use constants :point_left:
 - Describe and use conditionals :point_left:
 - Describe and use arrays
 - Describe and use hashes

@@ -8,6 +8,10 @@ Hashes are a bit like Arrays, because they also allow you to store a collection 
 
 What exactly does each element correspond to? It's hard to tell without labels and that's where Hashes come in. Most programming languages include something along the lines of a Hash. They might use a different name, like HashMap or Dictionary, but the basic concept is always the same.
 
+## Video
+
+Here's the [video]() for this section.
+
 ## Learning Objectives
 
 In this section, you will learn
@@ -36,6 +40,8 @@ Hashes are made up of key-value pairs. The _key_ is a label and the _value_ is t
 Now open IRB and create a few hashes of your own. You'll inevitably make a mistake at some point and Ruby will show you an error message. Try to understand it – new error messages can be learning opportunities!
 
 After you've created a few hashes, try using something other than a String for the keys. What works? What doesn't work?
+
+### Remember Symbols?
 
 In Ruby, it's very common to use symbols as keys – mostly because it looks prettier but it's also easier to type, due to another Ruby quirk. Here's an example...
 
@@ -124,12 +130,14 @@ In a few sentences, explain, in writing or to a peer:
 - The use of one other Hash method that you experimented with
 
 
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=03_introducing_hashes.md&redirect=chapter2/04_introducing_classes.md)
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/3_introducing_hashes.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/3_introducing_hashes.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/3_introducing_hashes.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/3_introducing_hashes.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/3_introducing_hashes.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/03_introducing_hashes.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/03_introducing_hashes.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/03_introducing_hashes.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/03_introducing_hashes.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/03_introducing_hashes.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

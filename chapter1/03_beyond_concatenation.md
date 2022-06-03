@@ -36,6 +36,10 @@ But we can do much, _much_, more than concatenate and interpolate Strings!
 
 In this section, we'll go beyond concatenation (and interpolation) and you'll learn the building blocks that will be used in your first real program - a password validator.
 
+## Video
+
+Here's the [video](https://youtu.be/m2gcP_Fnr6A) for this section.
+
 ## Learning Objectives
 
 In this section, you will learn:
@@ -50,15 +54,17 @@ In this section, you will learn:
 Methods are instructions or messages that we can use to achieve specific goals. They are used, or _called_ using _dot syntax_. For example, you can _call_ the `upcase` method on a `String` and it will `return` the characters of your `String` block caps.  Give it a try now.
 
 ```ruby
-> "Ruby".upcase
+> word = "Ruby"
+=> "Ruby"
+> word.upcase
 => "RUBY"
-> "is".upcase
-=> "IS"
-> "awesome".upcase
-=> "AWESOME"
+> word.downcase
+=> 'ruby'
+> word.reverse
+=> "ybuR"
+> word
+=> "Ruby"
 ```
-
-> What happens if you _call_ `upcase` on a `String` that is already in block caps?
 
 Later on, you'll learn how to define your own methods but, for now, we'll learn about how to use methods that are already defined, in the Ruby core library.
 ## Part Two: String Methods
@@ -104,7 +110,37 @@ You can also do this in one line, using method chaining.
 
 This works, because `upcase` returns `"HELLO"`, which means we then call `reverse` on that `String` to get the final return value of `"OLLEH"`.
 
-> What happens if you try to chain `length` and `downcase`? Can you explain what you see?
+### Exercise
+
+Here are four lines of code. Note down what you think each one will do. When you have noted down all four answers, run them in IRB to find out.
+
+```ruby
+# Don't run these until you've said what you think will happen
+
+# Example 1
+> "hello".length
+
+# Example 2
+> 5.downcase
+
+# Example 3
+> "hello".downcase.length
+
+# Example 4
+> "hello".length.downcase
+```
+
+<details>
+  <summary>I don't understand why Ruby works that way</summary>
+  <h4>Example 1</h4>
+  <div><code>"hello".length</code> returns <code>5</code> - an Integer representing the number of characters in <code>"Hello"</code>.</div>
+  <h4>Example 2</h4>
+  <div><code>5.downcase</code> throws an error because <code>downcase</code> is a String method and cannot be used on an Integer.</div>
+  <h4>Example 3</h4>
+  <div><code>"hello".downcase.length</code> returns 5 because <code>"hello".downcase</code> returns the String <code>"hello"</code> on which we then call <code>length</code>.</div>
+  <h4>Example 4</h4>
+  <div><code>"hello".length.downcase</code> throws an error becasue <code>"hello".length</code> returns 5 on which we then call <code>downcase</code>, a method that can only be called on Strings.</div>
+</details>
 
 ## Part Four: the Ruby Docs
 
@@ -113,11 +149,6 @@ The Ruby docs catalogue all the methods which are contained within the Ruby stan
 In some cases, they're quite sensibly named so you can often find what you need by browsing the list in the left sidebar. In each case, there's an explanation of what the method does and, if you're lucky, a clear example of the method in action – [`length`](https://ruby-doc.org/core-3.1.1/String.html#method-i-length) is a good example of that.
 
 > In section one you found a list of Ruby's other data types. Find the Ruby docs page for one of those now.
-
-## Further Resources
-
-- This section in [video form](https://youtu.be/m2gcP_Fnr6A)
-
 ## Reflect and Review
 
 In this section, you learned about String methods and method chaining.
@@ -131,7 +162,7 @@ In a few sentences, explain:
 - How method chaining works
 
 
-[Next Challenge](04_beyond_strings.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=03_beyond_concatenation.md&redirect=chapter1/04_beyond_strings.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

@@ -8,6 +8,10 @@ Sometimes, in real life, we might want to act only when certain conditions are m
 
 In programming, as in life, we need the ability to make decisions based on data.
 
+## Video
+
+Here's the [video](https://youtu.be/jCcQ4F-nIYc) for this section.
+
 ## Learning Objectives
 
 In this section, you'll learn
@@ -68,10 +72,6 @@ name = "Edward Smith"
 
 Now open up IRB and try playing with some `if` statements. Try adding more and more branches. See what happens if you leave off the `end`.
 
-## Further Resources
-
-- This section in [video form](https://youtu.be/jCcQ4F-nIYc)
-
 ## Reflect and Review
 
 In this section we covered `if` statements and how they can be used in a program to make decisions.
@@ -86,7 +86,7 @@ In a few sentences, explain:
 - How the `else` branch of an if statement works
 
 
-[Next Challenge](07_executing_ruby_files.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=06_conditionals.md&redirect=chapter1/07_executing_ruby_files.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

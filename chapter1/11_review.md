@@ -5,7 +5,6 @@ In this section, you've worked towards 6 of the module's 10 learning objectives.
 - Execute Ruby code in two different ways :point_left:
 - Make a plan using problem decomposition and experimentation :point_left:
 - Describe and use variables :point_left:
-- Describe and use constants :point_left:
 - Describe and use conditionals :point_left:
 - Describe and use arrays
 - Describe and use hashes
@@ -14,12 +13,11 @@ In this section, you've worked towards 6 of the module's 10 learning objectives.
 
 If a lot of these topics were new to you, it's very much worth taking 15 minutes to review them. Use the following questions to guide you and, if you get stuck, reach out to one of your peers – that will allow them to further test themselves.
 
-1. What is the difference between a variable and a constant?
-2. Name two ways of executing Ruby code.
-3. How are methods defined?
-4. When would a method take an argument?
-5. What is the basic structure of an if statement?
-6. What is refactoring?
+1. Name two ways of executing Ruby code.
+2. How are methods defined?
+3. When would a method take an argument?
+4. What is the basic structure of an if statement?
+5. What is refactoring?
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

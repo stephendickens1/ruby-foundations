@@ -9,7 +9,6 @@ In this section, you'll learn how to write programs using Ruby which will, neces
 - Execute Ruby code in two different ways
 - Make a plan using problem decomposition and experimentation
 - Describe and use variables
-- Describe and use constants
 - Describe and use conditionals
 - Describe and use arrays
 - Describe and use hashes
@@ -22,6 +21,12 @@ In this section, you'll learn how to write programs using Ruby which will, neces
 There are 3 chapters to work through. The first chapter introduces a range of new concepts and which are built upon, and added to, as you progress through the other chapters. This process of introducing something and then revisiting it later on is called _spiralling_.
 
 As you progress you'll be given challenges at several points, which you must complete before moving on. There are two types of challenge - _drills_ and _programs_.
+
+> The three chapters are broken up into sections, each of which has both text and video versions.
+
+### Progress Tracking
+
+To help your coach provide the right support, at the right time, please **log your progress at the end of each section using the form provided at that point**. It should only take a few seconds.
 
 ### Drills
 

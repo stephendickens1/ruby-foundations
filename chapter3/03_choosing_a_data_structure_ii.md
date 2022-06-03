@@ -2,6 +2,10 @@
 
 In the previous section you considered what it would be like to use each of these data structures. In this section, we'll help you make a decision.
 
+## Video
+
+Here's the [video]() for this section.
+
 ## Learning Objectives
 
 In this section, you will learn:
@@ -114,12 +118,14 @@ Write a few short notes, or chat with a peer, about...
 - Which option you've chosen and why
 
 
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=03_choosing_a_data_structure_ii.md&redirect=chapter3/04_advanced_arrays.md)
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/3_choosing_a_data_structure_ii.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/3_choosing_a_data_structure_ii.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/3_choosing_a_data_structure_ii.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/3_choosing_a_data_structure_ii.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/3_choosing_a_data_structure_ii.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/03_choosing_a_data_structure_ii.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/03_choosing_a_data_structure_ii.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/03_choosing_a_data_structure_ii.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/03_choosing_a_data_structure_ii.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/03_choosing_a_data_structure_ii.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

@@ -15,7 +15,7 @@ Well done for completing the first drills and programming challenge!
 - What one thing would you like to learn more about?
 
 
-[Next Challenge](10_refactoring.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=09_putting_it_into_practice.md&redirect=chapter1/10_refactoring.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

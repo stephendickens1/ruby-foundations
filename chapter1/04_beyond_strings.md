@@ -18,6 +18,10 @@ But what if you want to do maths or something else that cannot be done with Stri
 
 Arrays and Hashes are complex data types that are introduced in the next chapter. The rest are explained below.
 
+## Video
+
+Here's the [video](https://youtu.be/kaTyq6NquXA) for this section.
+
 ## Learning Objectives
 
 In this section, you will learn
@@ -86,42 +90,30 @@ Floats also have their own methods, which you can find in the [Ruby docs](https:
 
 ## Symbols
 
-Symbols may seem a bit odd at first and you're likely to have questions like...
+Symbols are like strings, but they're specially optimised for use by programmers in programs. You shouldn't show them to users.
 
-- What?
-- Why?
-- When would I use one of those weird things?
-- Why not just use a good old String?
-
-But bear with us, not least because they are very commonly used in Ruby for some specific things.
-
-### So what are Symbols?
-
-Symbols are (almost) any sequence of characters preceded by a colon, like this `:hello` and this `:hello_again!`. So they're a bit like a special kind of String.
-
-One of the key differences is that you cannot change them – they are immutable. If you had the String `'makers'` assigned to the variable `'training_provider'` you could do `training_provider.chop!` and that would remove the last letter, leaving `'maker'` – give it a try now.
-
-At first, it might seem like you can mutate a symbol, because you can do this...
+Symbols are a sequence of characters without spaces and with a colon at the start.
 
 ```ruby
-> :hello.upcase
-=> :HELLO
-```
-
-But that's not actually changing the original symbol, it's creating a new symbol that is comprised of block capital letters. The code below shows this...
-
-```ruby
-> # assign a symbol to a variable
-> greeting = :hello
-> # call the upcase method on the variable
-> greeting.upcase
-> :HELLO
-> # the symbol assigned to the variable remains unchanged
-> greeting
+# these are valid symbols
+> :hello
 => :hello
+> :RUBY
+=> :RUBY
+
+# you can assign symbols to variables
+> greeting = :hello
+
+# and call methods on them
+> greeting.upcase
+=> :HELLO
+> greeting.length
+=> 5
+> greeting.to_s
+=> "hello"
 ```
 
-There are many more Symbol methods, which you can find in the [Ruby docs](https://ruby-doc.org/core-3.0.0/Symbol.html).
+You will learn more about symbols when you learn about hashes. Until then, if you see one around feel free to admire it and move on.
 
 ## Booleans
 
@@ -154,11 +146,6 @@ Yes, these are slightly useless examples contrived to show you how booleans and 
 > password.length > 7 && password.length < 13
 # would return true or false
 ```
-
-## Further Resources
-
-- This section in [video form](https://youtu.be/kaTyq6NquXA)
-
 ## Reflect and Review
 
 In this section, you learned about Integers, Floats, Symbols and Booleans.
@@ -172,7 +159,7 @@ In a few sentences, explain:
 - What booleans are plus how the `&&` and `||` logical operators work
 
 
-[Next Challenge](05_arguments.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=04_beyond_strings.md&redirect=chapter1/05_arguments.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

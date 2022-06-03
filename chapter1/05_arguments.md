@@ -1,11 +1,15 @@
 # Getting Into Arguments
 
-So far, we've seen how to call _some_ methods on Strings. For example, we can use `clear` to delete all the characters in a `String`.
+So far, we've seen how to call _some_ methods on Strings. For example, we can use `upcase` to return a copy of a string in block capitals.
 
 ```ruby
-> "destroy after reading".clear
-=> ""
+> "upcase me".upcase
+=> "UPCASE ME"
 ```
+
+## Video
+
+Here's the [video](https://youtu.be/SqhDCxS3O00) for this section.
 
 ## Learning Objectives
 
@@ -35,22 +39,6 @@ In the second scenario, we need to find a new method and, importantly, we need a
 ```
 
 _Arguments_ are provided inside round brackets, or 'parentheses' `()`. Above, the `include?` method returned `true` because the character `"p"` (which I have provided as an argument) is found in `"programming"`.
-
-As an interesting aside, you've already used one method that takes an argument when you concatenated two `String`s.
-
-This...
-
-```ruby
-"Hello, " + "World!"
-````
-
-Can also be written like this...
-
-```ruby
-"Hello, ".+("World")
-```
-
-But it's very unusual to do that, in Ruby.
 
 ### Your Turn
 
@@ -92,11 +80,6 @@ And, finally, this...
 
 It's quite common to accidentally provide the wrong number of arguments to a method, so it's worth taking a moment to familiarise yourself with the error messages that you just saw.
 
-## Further Resources
-
-- This section in [video form](https://youtu.be/SqhDCxS3O00)
-- [A blog post on String methods](https://dev.to/jleewebdev/working-with-string-in-ruby-all-the-important-methods-you-need-to-know-1h71)
-
 ## Reflect and Review
 
 In this section you learned that things can be _passed into_ methods as _arguments_.
@@ -109,7 +92,7 @@ In a few sentences, explain:
 - What happens when you provide the wrong number of arguments
 
 
-[Next Challenge](06_conditionals.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=05_arguments.md&redirect=chapter1/06_conditionals.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

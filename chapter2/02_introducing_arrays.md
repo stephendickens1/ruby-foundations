@@ -2,6 +2,13 @@
 
 An Array is a collection, or list, of items. Arrays are extremely useful and commonly used in many different programming languages. In this section, you'll learn about how to use them, in Ruby.
 
+## Video
+
+The video for this section is in two parts...
+
+- [Here's the first part](https://youtu.be/I_oMPekZLwM)
+- [Here's the second part](https://youtu.be/NB6dau9kr6Q)
+
 ## Learning Objectives
 
 In this section, you will learn:
@@ -103,13 +110,6 @@ Some of them will also work on an Array of Strings `['cat', 'potato', 'ruby', 's
 
 You can find more [Array methods]((https://ruby-doc.org/core-3.0.0/Array.html)) in the Ruby Docs.
 
-## Further Resources
-
-The video for this section is in two parts...
-
-- [Here's the first part](https://youtu.be/I_oMPekZLwM)
-- [Here's the second part](https://youtu.be/NB6dau9kr6Q)
-
 ## Reflect and Review
 
 In this section, we introduced the concept of an array and how to use it. We also learned how to create arrays, add items to arrays, and access items in arrays. They're very useful but they are not the solution to every problem, just like the hammer is not the right tool for every job.
@@ -123,12 +123,14 @@ In a few sentences, explain:
 - How to access items in an array
 
 
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=02_introducing_arrays.md&redirect=chapter2/03_introducing_hashes.md)
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/2_introducing_arrays.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/2_introducing_arrays.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/2_introducing_arrays.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/2_introducing_arrays.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/2_introducing_arrays.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/02_introducing_arrays.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/02_introducing_arrays.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/02_introducing_arrays.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/02_introducing_arrays.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter2/02_introducing_arrays.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

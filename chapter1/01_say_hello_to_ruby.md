@@ -2,6 +2,10 @@
 
 Ruby was created by Yukihiro Matsumoto (affectionately known as "Matz"), with the goal of being pleasant or, in his words, "natural" to use. If it's your first programming language, it might not feel very natural to begin with, but you'll get there and when you start to learn a second language you'll be able to make some interesting comparisons.
 
+## Video
+
+Here's the [video](https://youtu.be/FtiWx0Or2uk) for this section.
+
 ## Learning objectives
 
 In this section, you'll learn:
@@ -10,7 +14,6 @@ In this section, you'll learn:
 - How to create and concatenate Strings
 - What is meant by _return value_
 - How to _assign_ and _reassign variables_
-- How to _assign constants_
 
 ## Prerequisites
 
@@ -31,11 +34,11 @@ From now on, I'll use `>` as the prompt in code examples to show that I am using
 
 ## Part Two: Hello Ruby!
 
-Let's write some Ruby! Start by saying "Hello" and Ruby, like an annoying sibling, will just repeat it back to you.
+Let's write some Ruby! Start by saying "hello" and Ruby, like an annoying sibling, will just repeat it back to you.
 
 ```ruby
-> "Hello"
-=> "Hello"
+> "hello"
+=> "hello"
 ```
 
 Let's breakdown what happened there – you created a `String` containing the letters `H`, `e`, `l`, `l` and `o`, then hit enter and saw the same string `return`ed back to you. Note that IRB indicates the `return` value using `=>`.
@@ -44,7 +47,7 @@ This leads us to think about two new things – `String`s and `return` values.
 
 ### Strings
 
-`String`s are one of Ruby's _data types_. They're used to store any combination of letters, numbers or special characters. They could be words, like `"Hello"`, names like `"Mandip"`, the flight number `"BA123"`, an emoji `":D"` or pretty much anything else you can imagine.
+`String`s are one of Ruby's _data types_. They're used to store any combination of letters, numbers or special characters. They could be words, like `"hello"`, names like `"Mandip"`, the flight number `"BA123"`, an emoji `":D"` or pretty much anything else you can imagine.
 
 > Find a list of Ruby's other data types and make a note of them somewhere
 ### Return Values
@@ -67,13 +70,13 @@ Feel free to try some other examples.
 In those examples, we're not really achieving anything useful – a `String` is created and then `return`ed. Let's try to do something with our `String`s.
 
 ```ruby
-> "Hello, " + "World!"
+> "hello, " + "world!"
 ```
 
 <details>
   <summary>Click here to see the expected return value</summary>
   <code>
-    => "Hello, World!"
+    => "hello, world!"
   </code>
 </details>
 <br>
@@ -83,8 +86,8 @@ Now we're getting somewhere! The `String`s have been joined or, to use the techn
 There's a problem though! At the moment, the return value is sort of _lost_ and we would have to repeat the concatenation if we wanted to see the full message once again.
 
 ```ruby
-> "Hello, " + "World!"
-=> "Hello, World!"
+> "hello, " + "world!"
+=> "hello, world!"
 ```
 
 If there's one thing you'll come to hate as a developer, it's repetition! So, wouldn't it be great if we could grab hold of the return value to use again later?  Well, we can do just that, using variables.
@@ -94,54 +97,36 @@ If there's one thing you'll come to hate as a developer, it's repetition! So, wo
 Variables are flexible containers for things, such as `String`s. Putting something _in_ one of these containers is called _assignment_. Let's assign the return value of our String concatenation to a variable called `greeting`.
 
 ```ruby
-> greeting = "Hello, " + "World!"
-=> "Hello, World!"
+> greeting = "hello, " + "world!"
+=> "hello, world!"
 > greeting
-=> "Hello, World!"
+=> "hello, world!"
 ```
 
 Variables can be _reassigned_ to contain different values, such as a different `String`, hence the name `variable`. Here's an example of reassignment.
 
 ```ruby
-> greeting = "Hello, " + "World!"
-=> "Hello, World!"
+> greeting = "hello, " + "world!"
+=> "hello, world!"
 > greeting
-=> "Hello, World!"
-> greeting = "Hello again, " + "World!"
-=> "Hello again, World!"
+=> "hello, world!"
+> greeting = "hello again, " + "world!"
+=> "hello again, world!"
 > greeting
-=> "Hello again, World!"
-```
-
-### Constants
-
-Variables are used to contain things which you expect to change. What if you expect something to remain constant or, to go further, what if something _should never be changed_? That's where _constants_ come in. Constants are _assigned_ in the same way as _variables_ but they are named using BLOCK CAPITALS.
-
-```ruby
-> GREETING = "Hello, " + "World!"
-=> "Hello, World!"
-> GREETING
-=> "Hello, World!"
+=> "hello again, world!"
 ```
 
 ### Time to Break Stuff
 
-1. What happens if you try to _reassign_ a _constant_?  Do it now in IRB.
-
-2. We've seen that a `String` is created by enclosing some characters in quotes. What happens if you leave them out? Do it (being sure to use a capital `H`) see what happens and try to explain what's going on.
+We've seen that a `String` is created by enclosing some characters in quotes. What happens if you leave them out? Do that now in IRB to find out.
 
 I.e. Try this...
 
 ```ruby
-> Hello
+> hello
 ```
 
-When you've spent a few mins thinking and researching, move on to the next section and we'll come back to this in the next section, which focuses on error messages.
-
-## Further Resources
-
-- This section in [video form](https://youtu.be/FtiWx0Or2uk)
-- [About Ruby](https://www.ruby-lang.org/en/about/)
+When you've spent a few mins thinking and researching, move on and we'll come back to this in the next section, which focuses on error messages.
 ## Reflect and Review
 
 So far, we've touched on quite a few things, very superficially but, rest assured, we'll dig deeper in later sections as these are some of the basic building blocks of almost every Ruby program.
@@ -153,7 +138,6 @@ So far, we've touched on quite a few things, very superficially but, rest assure
 - String concatenation
 - Variables
 - Return values
-- Constants
 
 **Please pause at this point to reflect and review your learning...**
 
@@ -162,7 +146,7 @@ So far, we've touched on quite a few things, very superficially but, rest assure
 - See if you can gain clarity by playing in IRB
 
 
-[Next Challenge](02_error_messages.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=01_say_hello_to_ruby.md&redirect=chapter1/02_error_messages.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

@@ -23,6 +23,10 @@ And in the previous section of this chapter, you saw something new – a method 
 
 This brings us to a whole new family of methods – methods which 'take' (are called along with) blocks.
 
+## Video
+
+Here's the [video]() for this section.
+
 ## Learning Objectives
 
 In this section, you'll learn about:
@@ -99,11 +103,11 @@ Imagine you want, for some reason, a method that will ask a question of the midd
 
 For example...
 
-- Is the number greater than 2?
-- Is the number odd?
-- Is the number a prime?
+- Is the middle number greater than 2?
+- Is the middle number odd?
+- Is the middle number a prime?
 
-You could create a define for every question, or you could define a method which take a block and is used like this...
+You could define a method for every question, or you could define a method which takes a block and is used like this...
 
 ```ruby
 > middle_number_is?([1,2,3,4,5]) { |middle| middle.odd? }
@@ -179,12 +183,14 @@ Make some notes, or talk to a peer, about:
 - What scope is
 
 
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=04_advanced_arrays.md&redirect=chapter3/05_advanced_hashes.md)
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/4_advanced_arrays.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/4_advanced_arrays.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/4_advanced_arrays.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/4_advanced_arrays.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/4_advanced_arrays.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/04_advanced_arrays.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/04_advanced_arrays.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/04_advanced_arrays.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/04_advanced_arrays.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/ruby_foundations&prefill_File=chapter3/04_advanced_arrays.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->
