@@ -17,7 +17,7 @@ You also know how to get an array of all the keys or all the values using `perso
 
 ## Video
 
-Here's the [video]() for this section.
+Here's the [video](https://youtu.be/606Npc3rJSs) for this section.
 
 ## Learning Objectives
 
@@ -26,20 +26,20 @@ In this section, you will learn about:
 
 ## More Blocks
 
-It turns out that pretty much all the array methods which take blocks can also be called on hashes, but there is one key difference. Try this...
+It turns out that pretty much all the array methods which take blocks can also be called on hashes, but there is one key difference. Try this... (note that you need to use `to_s` on the `key_value_pair`)
 
 ```ruby
 > person = {'name' => 'jo', 'age' => 42, 'height' => 170}
-> person.each { |key_value_pair| puts "key value pair: " + key_value_pair }
+> person.each { |key_value_pair| puts "key value pair: " + key_value_pair.to_s }
 ```
 
-When you iterate over a hash, you're iterating over all the key-value pairs and each one is passed to the block as a two element array.
+When you iterate over a hash, you're iterating over all the key-value pairs and each one is passed to the block as a two element array (which is why `to_s` is required).
 
-It's possible to _deconstruct_ the key-value pairs as they're passed into the block and create a separate variable for each one, like this...
+It's possible to _deconstruct_ the key-value pairs as they're passed into the block and create a separate variable for each one, like this... (note that, once again, `to_s` is required)
 
 ```ruby
 > person = {'name' => 'jo', 'age' => 42, 'height' => 170}
-> person.each { |key, value| puts "key: " + key + " value: " + value  }
+> person.each { |key, value| puts "key: " + key + " value: " + value.to_s  }
 ```
 
 Note how there are now two block variables `|key, value|`.  As before, you can use any name you like, but it's helpful to other developers (and your future self) if you choose something descriptive.

@@ -25,7 +25,7 @@ This brings us to a whole new family of methods – methods which 'take' (are ca
 
 ## Video
 
-Here's the [video]() for this section.
+Here's the [video](https://youtu.be/W4r-wZFXGQE) for this section.
 
 ## Learning Objectives
 

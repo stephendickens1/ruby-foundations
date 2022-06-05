@@ -4,7 +4,7 @@ We ended the previous section on a cliffhanger, trying to decipher the meaning o
 
 ## Video
 
-Here's the [video](https://youtu.be/MicYD2bi7_c) for this section.
+Here's the [video](https://youtu.be/INpNa92IUrU) for this section.
 ## Learning Objectives
 
 By the end of this section, you'll be able to:

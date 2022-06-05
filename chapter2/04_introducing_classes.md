@@ -4,7 +4,7 @@ Classes are used to _encapsulate_, or contain, state (variables) and behavior (m
 
 ## Video
 
-Here's the [video]() for this section.
+Here's the [video](https://youtu.be/LAQqDpvjT5M) for this section.
 
 ## Learning Objectives
 

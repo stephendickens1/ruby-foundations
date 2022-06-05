@@ -10,7 +10,7 @@ Whilst refactoring, we don't add any new features (such as new rules about what 
 
 The ultimate goal is to generate code that is easy to change because, if you can be sure of one thing in programming, it's that changes will be necessary! It might be that your client changes their mind, there was a misunderstanding, a new user need is discovered or maybe the application just continues to grow as planned. All of these scenarios involve changing, or building upon, the code that you already have.
 
-## Video
+## Video
 
 Here's the [video](https://youtu.be/PJWSKKMTVyo) for this section.
 

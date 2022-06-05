@@ -4,7 +4,7 @@ Ruby was created by Yukihiro Matsumoto (affectionately known as "Matz"), with th
 
 ## Video
 
-Here's the [video](https://youtu.be/FtiWx0Or2uk) for this section.
+Here's the [video](https://youtu.be/a5DeRQ2Hwks) for this section.
 
 ## Learning objectives
 

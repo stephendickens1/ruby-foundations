@@ -6,7 +6,7 @@
 
  ## Video
 
- Here's the [video] for this section
+ Here's the [video](https://youtu.be/ivIdU7JmD5g) for this section
 
  ## Learning Objectives
 

@@ -4,7 +4,7 @@ To track the date on which a service was added to Password Manager, we'll need t
 
 ## Video
 
-Here's the [video]() for this section.
+Here's the [video](https://youtu.be/cgcTUCpr6VQ) for this section.
 
 ## Learning Objectives
 

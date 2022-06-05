@@ -10,7 +10,7 @@ What exactly does each element correspond to? It's hard to tell without labels a
 
 ## Video
 
-Here's the [video]() for this section.
+Here's the [video](https://youtu.be/XYw5GQEoNqk) for this section.
 
 ## Learning Objectives
 

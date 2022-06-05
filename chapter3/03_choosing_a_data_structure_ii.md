@@ -4,7 +4,7 @@ In the previous section you considered what it would be like to use each of thes
 
 ## Video
 
-Here's the [video]() for this section.
+Here's the [video](https://youtu.be/bzn1rzIEXYA) for this section.
 
 ## Learning Objectives
 

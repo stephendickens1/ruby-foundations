@@ -52,7 +52,7 @@ We've added some configuration in the `.rspec` file so that when a test fails, r
 
 Drills are short, tightly focused exercises which get harder as you progress. You will only need to work in the `lib` directory. Do not change anything in the `spec` directory.
 
-> Please submit your code using the form at the end of this file.
+> Please [zip up](../../pills/creating_zipfiles.md) and submit your code using the form at the end of this file.
 
 ### Getting Started
 
@@ -64,7 +64,7 @@ Drills are short, tightly focused exercises which get harder as you progress. Yo
 4. Keep going until all the tests for that set of drills are passing
 5. Move on to the next set
 6. Keep going until all the tests for all the sets are passing
-7. Zip up your code so that you're ready to share it later
+7. [Zip up](../../pills/creating_zipfiles.md) your code so that you're ready to share it later
 8. Move on to the programming challenge
 
 ## Programming Challenge

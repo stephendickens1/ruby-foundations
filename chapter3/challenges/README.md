@@ -46,7 +46,7 @@ The process here is the same as it was for the previous chapters, but here's a r
 4. Keep going until all the tests for that set of drills are passing
 5. Move on to the next set
 6. Keep going until all the tests for all the sets are passing
-7. Zip up your code so that you're ready to share it later
+7. [Zip up](../../pills/creating_zipfiles.md) your code so that you're ready to share it later
 8. Move on to the programming challenge
 
 ## Programming Challenge
