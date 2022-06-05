@@ -120,6 +120,32 @@ In a few sentences, explain:
 - What happens when you try to execute code from a file that doesn't exist
 - The pros and cons of this new approach to code execution
 
+## Try some extra exercises
+
+Put your understanding to the test!
+
+1. What happens if you change the first `greeting` to something else? Say for example, `potato`?
+
+    ```ruby
+    > potato = puts "Hello"
+    > greeting
+    => nil
+    ```
+
+2. What happens if you change the second `greeting` to something else? Say for example, `bamboo`?
+
+    ```ruby
+    > potato = puts "Hello"
+    > bamboo
+    => nil
+    ```
+3. Take a look at the command you need to run your code:
+
+    ```shell
+    ; ruby upcase_ruby.rb
+    ```
+
+    If you were to guess at one part of that line being the _parameter_, which would it be?
 
 [Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=07_executing_ruby_files.md&redirect=chapter1/08_defining_methods.md)
 

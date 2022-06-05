@@ -1,4 +1,4 @@
-# Basic Programming
+# Ruby Foundations
 
 ## Learning objectives
 
