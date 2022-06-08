@@ -25,7 +25,7 @@ end
 # takes no args
 # returns 'hello'
 
-# say goodbye
+# say_goodbye
 # takes no args
 # returns 'goodbye'
 # say_hello_to

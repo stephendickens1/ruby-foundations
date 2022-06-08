@@ -154,7 +154,7 @@ In this section, you learned about Integers, Floats, Symbols and Booleans.
 
 In a few sentences, explain:
 
-- What methods Integers are and how they are different to Floats
+- What Integers are and how they are different to Floats
 - What symbols are and how they are different to Strings
 - What booleans are plus how the `&&` and `||` logical operators work
 
