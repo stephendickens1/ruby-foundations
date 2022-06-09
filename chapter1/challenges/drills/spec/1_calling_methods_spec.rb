@@ -97,7 +97,7 @@ RSpec.describe 'calling methods' do
   end
 
   describe 'float_to_string' do
-    it 'should return the floar as a string' do
+    it 'should return the float as a string' do
       expect(float_to_string(1.1)).to eq '1.1'
     end
   end
