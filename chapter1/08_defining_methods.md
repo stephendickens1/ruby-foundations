@@ -94,7 +94,7 @@ In a few sentences, describe:
 - The syntax / structure of a method
 
 
-[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=08_defining_methods.md&redirect=chapter1/09_putting_it_into_practice.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=08_defining_methods.md&redirect=chapter1/09_putting_chapter_1_into_practice.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

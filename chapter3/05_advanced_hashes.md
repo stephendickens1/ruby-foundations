@@ -70,7 +70,7 @@ Write some short notes, or talk to a peer, about:
 - How you can access both the keys and values inside the block
 
 
-[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=05_advanced_hashes.md&redirect=chapter3/06_putting_it_into_practice.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=05_advanced_hashes.md&redirect=chapter3/06_putting_chapter_3_into_practice.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
