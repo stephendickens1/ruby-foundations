@@ -61,9 +61,9 @@ The password manager will need to:
 ### Decomposing the Problem
 
 - You're going to need three methods:
-  - `add_password`, which is used to add a new password
+  - `add`, which is used to add a new password
   - `password_for`, which returns the password for a given service
-  - `all_services`, which returns a list of all the services for which a password has been stored
+  - `services`, which returns a list of all the services for which a password has been stored
 - The passwords will be stored in hash, where the key is the service and the value is the password
 - This hash will need to be stored in an instance variable
 ### Getting Started
