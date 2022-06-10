@@ -147,7 +147,7 @@ In a few sentences, explain:
 - Which of the two suggested refactors you prefer
 
 
-[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=10_refactoring.md&redirect=chapter1/11_review.md)
+[Log your progress and go to the next challenge](https://makers-event-logger.herokuapp.com/?event=10_refactoring.md&redirect=chapter1/11_chapter_1_review.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 

@@ -8,7 +8,7 @@ def starts_with_the_letter_a?(string)
   # your code goes here
 end
 
-# when the string is java
+# when the string is Java
 # the method should return true
 # when the string is JAVA
 # the method should return false
