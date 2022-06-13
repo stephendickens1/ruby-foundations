@@ -27,9 +27,9 @@ Sections 1 to 8 will introduce you to the skills and concepts you'll need in ord
 6. [Conditionals](./06_conditionals.md)
 7. [Executing Ruby Files](./07_executing_ruby_files.md)
 8. [Defining Methods](./08_defining_methods.md)
-9. [Putting it Into Practice](./09_putting_chapter_1_into_practice.md)
+9. [Putting Chapter 1 Into Practice](./09_putting_chapter_1_into_practice.md)
 10. [Refactoring](./10_refactoring.md)
-11. [Review](./11_chapter_1_review.md)
+11. [Chapter 1 Review](./11_chapter_1_review.md)
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
