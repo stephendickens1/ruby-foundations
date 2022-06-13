@@ -57,7 +57,7 @@
 # when the array is ['sam', 'alex']
 # returns ['john', 'paul', 'george', 'ringo', 'sam', 'alex']
 
-# remove_nils
+# remove_nils_from_array
 # takes one array as an arg
 # returns the array, minus any nils
 
@@ -94,7 +94,7 @@
 # takes one hash as an arg
 # returns the keys
 
-# remove_nils
+# remove_nils_from_hash
 # takes one hash an an arg
 # removes key-values pairs where the value is nil
 # returns the remaining key-value pairs as a hash
