@@ -99,7 +99,7 @@ end
   ]
 }
 
-# work_adress
+# work_address
 # takes no args
 # returns the work address in a nice format
 # E.g. '50 Comercial Street'

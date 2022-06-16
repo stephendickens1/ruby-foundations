@@ -29,7 +29,7 @@ RSpec.describe 'classes' do
       end
     end
   end
-  
+
   describe 'Calculator' do
 
     subject { Calculator.new }
@@ -58,7 +58,7 @@ RSpec.describe 'classes' do
       end
     end
   end
-  
+
   describe 'Basket' do
     subject { Basket.new }
 
@@ -71,7 +71,7 @@ RSpec.describe 'classes' do
       end
     end
   end
-  
+
   describe 'Cohort' do
 
     subject { Cohort.new }
@@ -107,7 +107,7 @@ RSpec.describe 'classes' do
       end
     end
   end
-  
+
   describe 'Person' do
 
     subject {
@@ -127,9 +127,9 @@ RSpec.describe 'classes' do
       )
     }
 
-    describe 'work_adress' do
+    describe 'work_address' do
       it 'returns work_address, nicely formatted' do
-        expect(subject.work_adress)
+        expect(subject.work_address)
           .to eq '12 Whitehall'
       end
     end
