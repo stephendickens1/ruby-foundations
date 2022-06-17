@@ -58,7 +58,7 @@ Here are some techniques:
 * Look at the Elements tab of the Chrome developer tools to see the content and styling of web pages.
 
 * Pause and step through your code, line by line:
-  * Ruby: `binding.pry`
+  * Ruby: `binding.irb`
   * JavaScript: `debugger` (JavaScript)
 
 * Write yourself small, self-contained examples of language features or methods you're trying to understand:
