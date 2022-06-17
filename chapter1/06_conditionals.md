@@ -62,7 +62,7 @@ In many situations there will be more than one thing that we wish to check, whic
 ```ruby
 name = "Edward Smith"
 > if(name.length > 25)
->   return "That's very a long name"
+>   return "That's a very long name"
 > elsif(name.length > 20)
 >   return "That's a long name"
 > else

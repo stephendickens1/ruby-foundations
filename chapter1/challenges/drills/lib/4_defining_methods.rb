@@ -28,6 +28,7 @@ end
 # say_goodbye
 # takes no args
 # returns 'goodbye'
+
 # say_hello_to
 # takes one string as an arg
 # example: the arg is `Sam`
@@ -53,15 +54,15 @@ end
 # adds them together
 # returns the total
 
-# add_number_strings
-# takes two numbers as strings
-# converts them both to numbers
-# returns the total
-
 # multiply
 # takes two numbers as args
 # multiplies one by the other
 # returns the result
+
+# add_number_strings
+# takes two numbers as strings
+# converts them both to numbers
+# returns the total
 
 # multiply_number_strings
 # takes two numbers as strings for args

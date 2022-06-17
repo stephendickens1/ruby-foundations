@@ -27,6 +27,10 @@ RSpec.describe("password validation") do
       it("returns false when the password contains less than eight characters but includes '&'") do
         expect(valid?("567&")).to eq(false)
       end
+
+      it("returns false when the password contains less than eight characters but includes '%'") do
+        expect(valid?("567%")).to eq(false)
+      end
     end
 
     context("When sufficient number of characters is provided") do

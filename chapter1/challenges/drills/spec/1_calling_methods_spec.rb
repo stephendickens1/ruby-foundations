@@ -51,11 +51,11 @@ RSpec.describe 'calling methods' do
   end
 
   describe 'is_integer_even?' do
-    it 'should return true, if the integeer is even' do
+    it 'should return true, if the integer is even' do
       expect(is_integer_even?(2)).to eq true
     end
 
-    it 'should return false, if the integeer is odd' do
+    it 'should return false, if the integer is odd' do
       expect(is_integer_even?(1)).to eq false
     end
   end
