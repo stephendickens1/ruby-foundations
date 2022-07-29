@@ -82,7 +82,7 @@
 # takes a hash of one key-value pair as an arg
 # merges it wth the existing hash of band members
 # returns the new hash
-# the existing band members are: {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'
+# the existing band memebers are: {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'
 # if the arg is {'drummer' => 'kermit'}
 # returns {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'}
 
@@ -96,7 +96,7 @@
 
 # remove_nils_from_hash
 # takes one hash an an arg
-# removes key-value pairs where the value is nil
+# removes key-values pairs where the value is nil
 # returns the remaining key-value pairs as a hash
 
 # key_value_swap

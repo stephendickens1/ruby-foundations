@@ -120,7 +120,7 @@ That method which checks for special characters is a bit long, so we can shorten
 Let's refactor our `special_chars_included?` method to use a regex. Let's also assign the regex to a variable, so that we can give it a meaningful name.
 
 ```ruby
-required_chars = /[!@$%&]/
+require_chars = /[!@$%&]/
 
 def special_chars_included?(password)
   # `/[!@$%&]/` is the regex

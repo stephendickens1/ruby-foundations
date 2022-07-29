@@ -129,7 +129,7 @@ Here's a challenge for you – add a method to the `Person` class that will retu
 
 <details>
 <summary>Solution</summary>
-<img src="../images/attr_reader.png"></img>
+<img src="./images/attr_reader.png"></img>
 <p>
 Methods which return instance variables are called _attribute readers_. Now add attribute readers for each of the other instance variables.
 </p>

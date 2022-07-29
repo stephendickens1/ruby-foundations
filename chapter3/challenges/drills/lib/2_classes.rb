@@ -43,7 +43,7 @@ end
 # Returns 'Goodnight, Jo', if the arg is 'Jo'
 # goodmorning
 # Takes one string as an arg (a name)
-# Returns 'Goodmorning, Alex', if the arg is 'Alex'
+# Returns 'Hello, Alex', if the arg is 'Alex'
 
 # Calculator
 # add
@@ -94,7 +94,7 @@ end
     {'name' => 'gwen', 'animal' => 'goldfish'}
   ],
   'addresses' => [
-    {'name' => 'work', 'building' => '50', 'street' => 'Commercial Street'},
+    {'name' => 'work', 'building' => '50', 'street' => 'Comercial Street'},
     {'name' => 'home', 'building' => '10', 'street' => 'South Street'}
   ]
 }
@@ -102,7 +102,7 @@ end
 # work_address
 # takes no args
 # returns the work address in a nice format
-# E.g. '50 Commercial Street'
+# E.g. '50 Comercial Street'
 # home_address
 # takes no args
 # returns the home address in a nice format

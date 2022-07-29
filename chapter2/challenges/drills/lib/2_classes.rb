@@ -76,7 +76,7 @@ end
 # returns the result
 
 # Apprentice
-# is instantiated with two strings
+# is instatiated with two strings
 # a name and a cohort name
 # name
 # returns the name

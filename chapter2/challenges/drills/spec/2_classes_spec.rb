@@ -121,7 +121,7 @@ RSpec.describe 'classes' do
     end
 
     describe 'end_date' do
-      it 'returns the end_date as a Date object' do
+      it 'returns the end_date as Date object' do
         expect(subject.end_date).to eq Date.parse('2060/01/08')
       end
     end
