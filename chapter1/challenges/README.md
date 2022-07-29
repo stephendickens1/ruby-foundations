@@ -125,7 +125,7 @@ Use [this form](https://airtable.com/shr6mk28x0fy3OrxN?prefill_Item=rubyf_ch1) t
 
 ## What Next?
 
-Go back [here](../09_putting_it_into_practice.md#reflect-and-review) to reflect on your progress before moving on.
+Go back [here](../09_putting_chapter_1_into_practice.ed.md#reflect-and-review) to reflect on your progress before moving on.
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
