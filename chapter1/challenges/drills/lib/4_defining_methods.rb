@@ -1,4 +1,4 @@
-# In these exercises, you'll be defining methdods, so you start only with a set of requirements for each one.
+# In these exercises, you'll be defining methods, so you start only with a set of requirements for each one.
 
 # the requirements will always start with the name of the method
 # then they'll describe what the method should do
@@ -6,7 +6,7 @@
 # here's an example of some requirements
 
 # add_ten
-# takes one number as an arg
+# takes one number as an arg (argument)
 # adds ten and returns the new value
 # example: the arg is 5
 # returns 15
@@ -22,7 +22,7 @@ end
 # now it's over to you!
 
 # say_hello
-# takes no args
+# takes no args (arguments)
 # returns 'hello'
 
 # say_goodbye

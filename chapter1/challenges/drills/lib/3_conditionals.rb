@@ -2,6 +2,7 @@
 # return 'fizz' if the number is divisible by 3
 # return 'buzz' if the number is divisible by 5
 # return 'fizzbuzz' if the number is divisible by 15
+# return '1' if the number is not divisible by 3, 5 or 15
 # clue - you can check divisibility using modulo (%)
 def fizz_buzz(number)
 end

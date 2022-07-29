@@ -49,12 +49,12 @@
 
 # i_joined_the_beatles
 # takes one string as an arg
-# when that string is 'freda'
+# when that string is 'freda' (for example)
 # returns ['john', 'paul', 'george', 'ringo', 'freda']
 
 # we_joined_the_beatles
 # takes one array as an arg
-# when the array is ['sam', 'alex']
+# when the array is ['sam', 'alex'] (for example)
 # returns ['john', 'paul', 'george', 'ringo', 'sam', 'alex']
 
 # remove_nils_from_array

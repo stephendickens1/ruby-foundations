@@ -23,17 +23,17 @@ require 'date'
 # Example solution
 
 class Greeter
- def initialize(name)
-  @name = name
- end
+  def initialize(name)
+    @name = name
+  end
 
- def hello
-  return 'hello, ' + @name
- end
+  def hello
+    return 'hello, ' + @name
+  end
 
- def goodbye
-  return 'goodbye, ' + @name
- end
+  def goodbye
+    return 'goodbye, ' + @name
+  end
 end
 
 # Animal

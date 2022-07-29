@@ -1,6 +1,6 @@
 require_relative '../lib/3_conditionals'
 
-RSpec.describe 'conditionals' do 
+RSpec.describe 'conditionals' do
   describe 'fizz_buzz' do
     it 'returns fizz, for 3' do
       expect(fizz_buzz(3)).to eq 'fizz'
@@ -12,6 +12,10 @@ RSpec.describe 'conditionals' do
 
     it 'returns fizzbuzz, for 3' do
       expect(fizz_buzz(15)).to eq 'fizzbuzz'
+    end
+
+    it 'returns 1, for 1' do
+      expect(fizz_buzz(1)).to eq '1'
     end
   end
 
@@ -48,6 +52,10 @@ RSpec.describe 'conditionals' do
   end
 
   describe 'top_up_to_100' do
+    it 'returns 100, when given 5' do
+      expect(top_up_to_100(5)).to eq 100
+    end
+
     it 'returns 100, when given 99' do
       expect(top_up_to_100(99)).to eq 100
     end
