@@ -101,7 +101,7 @@ If you feel like a challenge, try to find the method that returns all the `Hash`
 
 <details>
   <summary>Solution</summary>
-  <img src="./images/hash_keys.png"></img>
+  <img src="../images/hash_keys.png"></img>
 </details>
 <br>
 

@@ -32,7 +32,7 @@ RSpec.describe 'arrays and hashes' do
   end
 
   describe 'total' do
-    it 'takes an array of numners and returns the total' do
+    it 'takes an array of numbers and returns the total' do
       expect(total([1,2,3,4])).to eq 10
     end
   end

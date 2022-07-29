@@ -47,7 +47,7 @@ RSpec.describe 'classes' do
     end
 
     describe 'subtract' do
-      it 'takes two numbers and suvtracts the second from the first' do
+      it 'takes two numbers and subtracts the second from the first' do
         expect(subject.subtract(5,1)).to eq 4
       end
     end
@@ -135,7 +135,7 @@ RSpec.describe 'classes' do
     end
 
     describe 'home_address' do
-      it 'returns work_address, nicely formatted' do
+      it 'returns home_address, nicely formatted' do
         expect(subject.home_address)
           .to eq '1 North Lane'
       end
