@@ -66,7 +66,7 @@ RSpec.describe 'arrays and hashes' do
   describe 'we_joined_the_beatles' do
     it 'takes takes an array of names and adds them all to the Beatles array' do
       expect(we_joined_the_beatles(['jo', 'jude', 'sam'])).to eq ['john', 'paul', 'george', 'ringo', 'jo', 'jude', 'sam']
-      expect(we_joined_the_beatles(['you', 'someone else'])).to eq ['john', 'paul', 'george', 'ringo', 'you', 'someone ele']
+      expect(we_joined_the_beatles(['you', 'someone else'])).to eq ['john', 'paul', 'george', 'ringo', 'you', 'someone else']
     end
   end
 
