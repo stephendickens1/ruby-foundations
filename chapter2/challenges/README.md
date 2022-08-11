@@ -45,6 +45,12 @@ The process here is the same as it was for chapter 1 but here's a reminder of ho
 7. [Zip up](../../pills/creating_zipfiles.md) your code so that you're ready to share it later
 8. Move on to the programming challenge
 
+## Before Moving On
+
+Please head back to [Chapter 2 Review](./07_chapter_2_review.md) to consolidate, and record your answers to a few questions, before moving onto the final challenge for Chapter 2.
+
+Once you have submitted your recording, please feel free to attempt the next stage.
+
 ## Programming Challenge
 
 In this exercise you'll bring together several different concepts to build a password manager. 
@@ -61,11 +67,21 @@ The password manager will need to:
 ### Decomposing the Problem
 
 - You're going to need three methods:
-  - `add`, which is used to add a new password
-  - `password_for`, which returns the password for a given service
-  - `services`, which returns a list of all the services for which a password has been stored
-- The passwords will be stored in hash, where the key is the service and the value is the password
+  - `add`
+    * Takes two strings, the service and its password, as arguments
+    * Stores the new service and its password
+  - `password_for`
+    * Takes one string, the service, as an argument
+    * Returns the password for that service
+  - `services`
+    * Takes no arguments
+    * Returns a list of all the services for which a password has been stored
+    * Does not return all the passwords
+- The passwords will be stored in hash
+  * The keys are services
+  * The values are the passwords
 - This hash will need to be stored in an instance variable
+
 ### Getting Started
 0. [Start recording](../../pills/screen_recordings.md) 🎥
 1. Navigate to the `program` directory on the command line and run `rspec`
@@ -73,13 +89,19 @@ The password manager will need to:
 3. Run `rspec` regularly to check your progress
 4. Keep going until all the tests pass
 
+<details><summary>Help, I'm stuck!</summary>
+  <p>
+    If you're unsure how to get started or, having started, make progress beyond a certain point, fear not. The blocker is likely to be process related - to get help, go <a href="./baking_a_class.md">here</a>
+  </p>
+</details>
+
 ## Submitting Your Work
 
 Use [this form](https://airtable.com/shr6mk28x0fy3OrxN?prefill_Item=rubyf_ch2) to submit your code and screen recording
 
 ## What Next?
 
-Go back [here](../06_putting_chapter_2_into_practice.md#reflect-and-review) to reflect on your progress before moving on.
+Go back [here](../07_putting_chapter_2_into_practice.md#reflect-and-review) to reflect on your progress before moving on.
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

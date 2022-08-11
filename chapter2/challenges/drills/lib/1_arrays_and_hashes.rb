@@ -1,4 +1,4 @@
-# These exercises require you to define methods
+# These exercises (mostly) require you to define methods
 # Most methods will take an array or hash as an argument
 # Some methods will take other args
 # Some methods won't take any args
@@ -78,13 +78,62 @@
 
 ## Hashes
 
-# new_band_member
-# takes a hash of one key-value pair as an arg
-# merges it wth the existing hash of band members
+### The first two exercises focus on reading values from hashes
+
+# get_band_member
+# takes one string as an arg
+# that string corresponds to a hash key
+# returns the value of that key
+# the hash is defined for you (see below)
+# if the arg is 'vocalist'
+# returns 'miss piggy'
+
+def get_band_member(key)
+  band_members = {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'}
+  # your code goes here
+end
+
+# query product
+# takes one string as an arg
+# that string corresponds to a hash key
+# returns the value of that key
+# the hash is defined for you (see below)
+# if the arg is 'price'
+# returns 2.99
+
+def query_product(key)
+  product = {'price' => 2.99, 'name' => 'chocolate', 'ingredients' => ['cocoa', 'nuts', 'mylk']}
+  # your code goes here
+end
+
+### Focus: Adding key value pairs to hashes
+
+# new_drummer
+# takes one string as an arg
+# adds a new key/value pair to the hash
+# the key is 'drummer' and the value is the string
 # returns the new hash
-# the existing band members are: {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'
-# if the arg is {'drummer' => 'kermit'}
+# the existing band members are: {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'}
+# if the arg is 'kermit'
 # returns {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'}
+
+# touch_in
+# takes two args
+# arg one: the name of a tube station e.g. 'Aldgate East'
+# arg two: a date and time e.g. '2022/01/30 17:12'
+# returns a hash with key-value pairs for 'entrypoint' and 'time'
+
+### Focus: Changing the value of an existing key-value pair in a hash
+
+# new_vocalist
+# takes one string as an arg
+# replaces the value of the 'vocalist' key with the string
+# returns the new hash
+# the existing band members are: {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter'}
+# if the arg is 'waldo'
+# returns {'vocalist' => 'waldo', 'lead_guitar' => 'scooter'}
+
+### Focus: Using the Ruby docs to find the right method/s
 
 # all_values
 # takes one hash as an arg
@@ -103,9 +152,3 @@
 # takes one hash as an arg
 # swaps the keys with the values
 # returns the new hash
-
-# touch_in
-# takes two args
-# arg one: the name of a tube station e.g. 'Aldgate East'
-# arg two: a date and time e.g. '2022/01/30 17:12'
-# returns a hash with key-value pairs for 'entrypoint' and 'time'

@@ -24,8 +24,8 @@ Sections 1 to 5 will introduce you to the skills and concepts you'll need in ord
 3. [Introducing Hashes](./03_introducing_hashes.md)
 4. [Introducing Classes](./04_introducing_classes.md)
 5. [Scope](./05_scope.md)
-6. [Putting Chapter 2 Into Practice](./06_putting_chapter_2_into_practice.md)
-7. [Chapter 2 Review](./07_chapter_2_review.md)
+6. [Chapter 2 Review](./06_chapter_2_review.md)
+7. [Putting Chapter 2 Into Practice](./07_putting_chapter_2_into_practice.md)
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
