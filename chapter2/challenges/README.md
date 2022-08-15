@@ -45,6 +45,12 @@ The process here is the same as it was for chapter 1 but here's a reminder of ho
 7. [Zip up](../../pills/creating_zipfiles.md) your code so that you're ready to share it later
 8. Move on to the programming challenge
 
+## Before Moving On
+
+Please head back to [Chapter 2 Review](./07_chapter_2_review.md) to consolidate, and record your answers to a few questions, before moving onto the final challenge for Chapter 2.
+
+Once you have submitted your recording, please feel free to attempt the next stage.
+
 ## Programming Challenge
 
 In this exercise you'll bring together several different concepts to build a password manager. 
