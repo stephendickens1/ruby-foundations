@@ -1,4 +1,5 @@
 require_relative '../lib/password_manager_2'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 require 'timecop'
 
 RSpec.describe PasswordManager2 do
@@ -13,15 +14,32 @@ RSpec.describe PasswordManager2 do
     end
 
     context 'when the password is not unique' do
+
+      it 'a helpful message is returned' do
+        password_manager = PasswordManager2.new
+        password_manager.add('acebook', 'password123')
+        expect(password_manager.add('makersbnb', 'password123')).to eq(
+          "ERROR: Passwords must be unique"
+        )
+      end
+
       it 'is not added' do
         password_manager = PasswordManager2.new
         password_manager.add('acebook', 'password123')
         password_manager.add('makersbnb', 'password123')
-        expect(password_manager.services).to eq ['acebook']
+        expect(password_manager.services).to eq(['acebook'])
       end
     end
 
     context 'when the service name is not unique' do
+      it 'a helpful message is returned' do
+        password_manager = PasswordManager2.new
+        password_manager.add('acebook', 'password123')
+        expect(password_manager.add('acebook', 'qwerty789')).to eq(
+          "ERROR: Service names must be unique"
+        )
+      end
+
       it 'is not added' do
         password_manager = PasswordManager2.new
         password_manager.add('acebook', 'password123')
@@ -66,20 +84,12 @@ RSpec.describe PasswordManager2 do
     it 'can sort by service name, alphabetically' do
       password_manager = PasswordManager2.new
       password_manager.add('acebook', 'password123')
+      password_manager.add('chitter', 'cheepcheep123')
       password_manager.add('makersbnb', 'qwerty789')
       expect(password_manager.sort_by('service')).to eq [
         'acebook',
+        'chitter',
         'makersbnb'
-      ]
-    end
-
-    it 'can sort by service name, reverse alphabetically' do
-      password_manager = PasswordManager2.new
-      password_manager.add('acebook', 'password123')
-      password_manager.add('makersbnb', 'qwerty789')
-      expect(password_manager.sort_by('service', 'reverse')).to eq [
-        'makersbnb',
-        'acebook'
       ]
     end
 
@@ -91,23 +101,13 @@ RSpec.describe PasswordManager2 do
       Timecop.freeze(Time.local(2019, 1, 1)) do
         password_manager.add('makersbnb', 'qwerty789')
       end
+      Timecop.freeze(Time.local(2018, 1, 1)) do
+        password_manager.add('chitter', 'cheepcheep123')
+      end
       expect(password_manager.sort_by('added_on')).to eq [
+        'chitter',
         'makersbnb',
         'acebook'
-      ]
-    end
-
-    it 'can sort by added_on date, reverse chronologically' do
-      password_manager = PasswordManager2.new
-      Timecop.freeze(Time.local(2020, 1, 1)) do
-        password_manager.add('acebook', 'password123')
-      end
-      Timecop.freeze(Time.local(2019, 1, 1)) do
-        password_manager.add('makersbnb', 'qwerty789')
-      end
-      expect(password_manager.sort_by('added_on', 'reverse')).to eq [
-        'acebook',
-        'makersbnb'
       ]
     end
   end

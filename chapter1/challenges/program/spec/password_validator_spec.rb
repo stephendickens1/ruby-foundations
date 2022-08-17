@@ -1,4 +1,5 @@
 require_relative "../lib/password_validator"
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe("password validation") do
   describe("valid?") do

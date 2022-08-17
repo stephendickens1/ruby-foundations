@@ -1,4 +1,5 @@
 require_relative '../lib/2_calling_methods_with_args'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe 'calling methods with arguments' do
   describe 'starts_with_the_letter_a' do

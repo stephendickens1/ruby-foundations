@@ -1,4 +1,5 @@
 require_relative '../lib/password_manager'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe PasswordManager do
   describe '#add' do
@@ -87,3 +88,4 @@ RSpec.describe PasswordManager do
     end
   end
 end
+

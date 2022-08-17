@@ -1,10 +1,12 @@
 require_relative '../lib/2_classes'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe 'classes' do
   describe 'Animal' do
     describe '.new' do
       it 'returns an instance of Animal' do
-        expect(Animal.new).to be_a Animal
+        animal = Animal.new
+        expect(animal).to be_a Animal
       end
     end
   end
@@ -12,7 +14,8 @@ RSpec.describe 'classes' do
   describe 'Vehicle' do
     describe '.new' do
       it 'returns an instance of Vehicle' do
-        expect(Vehicle.new).to be_a Vehicle
+        vehicle = Vehicle.new
+        expect(vehicle).to be_a Vehicle
       end
     end
   end
@@ -20,7 +23,8 @@ RSpec.describe 'classes' do
   describe 'Cat' do
     describe '#speak' do
       it 'returns miaow' do
-        expect(Cat.new.speak).to eq 'miaow'
+        cat = Cat.new
+        expect(cat.speak).to eq 'miaow'
       end
     end
   end
@@ -28,53 +32,91 @@ RSpec.describe 'classes' do
   describe 'Dog' do
     describe '#speak' do
       it 'returns woof' do
-        expect(Dog.new.speak).to eq 'woof'
+        dog = Dog.new
+        expect(dog.speak).to eq 'woof'
       end
     end
   end
 
   describe 'StringFormatter' do
 
-    subject { StringFormatter.new }
-
     describe 'block_caps' do
-      it 'takes a string an returns the same chars in block caps' do
-        expect(subject.block_caps('hello')).to eq 'HELLO'
+      it 'given "hello", returns "HELLO"' do
+        string_fornatter = StringFormatter.new
+        expect(string_fornatter.block_caps('hello')).to eq 'HELLO'
+      end
+
+      it 'given "goodbye", returns "GOODBYE"' do
+        string_fornatter = StringFormatter.new
+        expect(string_fornatter.block_caps('goodbye')).to eq 'GOODBYE'
       end
     end
 
     describe 'lower_case' do
-      it 'takes a string an returns the same chars in lower case' do
-        expect(subject.lower_case('HELLO')).to eq 'hello'
+      it 'given "HELLO", returns "hello"' do
+        string_fornatter = StringFormatter.new
+        expect(string_fornatter.lower_case('HELLO')).to eq 'hello'
+      end
+
+      it 'given "GOODBYE", returns "goodbye"' do
+        string_fornatter = StringFormatter.new
+        expect(string_fornatter.lower_case('GOODBYE')).to eq 'goodbye'
       end
     end
   end
 
   describe 'Calculator' do
 
-    subject { Calculator.new }
-
     describe 'add' do
-      it 'takes two numbers and returns the total' do
-        expect(subject.add(5,5)).to eq 10
+      it 'given 5 and 5, returns 10' do
+        calculator = Calculator.new
+        expect(calculator.add(5,5)).to eq 10
+      end
+
+      it 'given 1 and 1, returns 2' do
+        calculator = Calculator.new
+        expect(calculator.add(1,1)).to eq 2
       end
     end
 
     describe 'multiply' do
-      it 'takes two numbers and multiplies one by the other' do
-        expect(subject.multiply(5,5)).to eq 25
+      it 'given 5 and 5, returns 25' do
+        calculator = Calculator.new
+        expect(calculator.multiply(5,5)).to eq 25
+      end
+
+      it 'given 2 and 2, returns 4' do
+        calculator = Calculator.new
+        expect(calculator.multiply(2,2)).to eq 4
       end
     end
 
     describe 'subtract' do
-      it 'takes two numbers and subctracts the second from the first' do
-        expect(subject.subtract(5,4)).to eq 1
+      it 'given 5 and 4, returns 1' do
+        calculator = Calculator.new
+        expect(calculator.subtract(5,4)).to eq 1
+      end
+
+      it 'given 5 and 5, returns 0' do
+        calculator = Calculator.new
+        expect(calculator.subtract(5,5)).to eq 0
+      end
+
+      it 'given 4 and 5, returns -1' do
+        calculator = Calculator.new
+        expect(calculator.subtract(4,5)).to eq -1
       end
     end
 
     describe 'divide' do
-      it 'takes two numbers and divides the first by the second' do
-        expect(subject.divide(10,5)).to eq 2
+      it 'given 10 and 5, returns 2' do
+        calculator = Calculator.new
+        expect(calculator.divide(10,5)).to eq 2
+      end
+
+      it 'given 10 and 2, returns 5' do
+        calculator = Calculator.new
+        expect(calculator.divide(10,2)).to eq 5
       end
     end
 
@@ -82,23 +124,24 @@ RSpec.describe 'classes' do
 
   describe 'Apprentice' do
 
-    subject { Apprentice.new('Jude', 'August 2045')}
-
     describe 'name' do
-      it 'returns name' do
-        expect(subject.name).to eq 'Jude'
+      it 'when name is "Jude", returns "Jude"' do
+        apprentice = Apprentice.new('Jude', 'August 2045')
+        expect(apprentice.name).to eq 'Jude'
       end
     end
 
     describe 'cohort' do
-      it 'returns cohort' do
-        expect(subject.cohort).to eq 'August 2045'
+      it 'when cohort is "August 2045", returns "August 2045"' do
+        apprentice = Apprentice.new('Jude', 'August 2045')
+        expect(apprentice.cohort).to eq 'August 2045'
       end
     end
 
     describe 'full_details' do
       it 'returns name and cohort' do
-        expect(subject.full_details).to eq 'Jude, August 2045'
+        apprentice = Apprentice.new('Jude', 'August 2045')
+        expect(apprentice.full_details).to eq 'Jude, August 2045'
       end
     end
 
@@ -106,29 +149,31 @@ RSpec.describe 'classes' do
 
   describe 'Cohort' do
 
-    subject { Cohort.new('January 2060', '2060/01/01', '2060/01/08')}
-
     describe 'name' do
-      it 'returns the name' do
-        expect(subject.name).to eq 'January 2060'
+      it 'when name is "January 2060", returns "January 206"' do
+        cohort = Cohort.new('January 2060', '2060/01/01', '2060/01/08')
+        expect(cohort.name).to eq 'January 2060'
       end
     end
 
     describe 'start_date' do
-      it 'returns the start_date as a Date object' do
-        expect(subject.start_date).to eq Date.parse('2060/01/01')
+      it 'when start_date is "2060/01/01" returns Date object for that date' do
+        cohort = Cohort.new('January 2060', '2060/01/01', '2060/01/08')
+        expect(cohort.start_date).to eq Date.parse('2060/01/01')
       end
     end
 
     describe 'end_date' do
-      it 'returns the end_date as a Date object' do
-        expect(subject.end_date).to eq Date.parse('2060/01/08')
+      it 'when end_date is "2060/01/08" returns Date object for that date' do
+        cohort = Cohort.new('January 2060', '2060/01/01', '2060/01/08')
+        expect(cohort.end_date).to eq Date.parse('2060/01/08')
       end
     end
 
     describe 'duration' do
       it 'returns the diff between start_date and end_date in days' do
-        expect(subject.duration).to eq 7
+        cohort = Cohort.new('January 2060', '2060/01/01', '2060/01/08')
+        expect(cohort.duration).to eq 7
       end
     end
   end

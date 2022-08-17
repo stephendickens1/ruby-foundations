@@ -45,12 +45,6 @@ The process here is the same as it was for chapter 1 but here's a reminder of ho
 7. [Zip up](../../pills/creating_zipfiles.md) your code so that you're ready to share it later
 8. Move on to the programming challenge
 
-## Before Moving On
-
-Please head back to [Chapter 2 Review](./07_chapter_2_review.md) to consolidate, and record your answers to a few questions, before moving onto the final challenge for Chapter 2.
-
-Once you have submitted your recording, please feel free to attempt the next stage.
-
 ## Programming Challenge
 
 In this exercise you'll bring together several different concepts to build a password manager. 
@@ -83,17 +77,13 @@ The password manager will need to:
 - This hash will need to be stored in an instance variable
 
 ### Getting Started
-0. [Start recording](../../pills/screen_recordings.md) 🎥
-1. Navigate to the `program` directory on the command line and run `rspec`
-2. Work in small steps to build Password Manager
-3. Run `rspec` regularly to check your progress
-4. Keep going until all the tests pass
-
-<details><summary>Help, I'm stuck!</summary>
-  <p>
-    If you're unsure how to get started or, having started, make progress beyond a certain point, fear not. The blocker is likely to be process related - to get help, go <a href="./baking_a_class.md">here</a>
-  </p>
-</details>
+1. [Create a class recipe](./baking_a_class.md)
+2. [Start recording](../../pills/screen_recordings.md) 🎥
+3. Explain your recipe
+4. Navigate to the `program` directory on the command line and run `rspec`
+5. Work in small steps to build Password Manager
+6. Run `rspec` regularly to check your progress
+7. Keep going until all the tests pass
 
 ## Submitting Your Work
 

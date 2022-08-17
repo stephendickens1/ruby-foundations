@@ -5,6 +5,7 @@
 # return '1' if the number is not divisible by 3, 5 or 15
 # clue - you can check divisibility using modulo (%)
 def fizz_buzz(number)
+  # your code goes here
 end
 
 # if the greeting is 'good morning'
@@ -14,6 +15,7 @@ end
 # if the greeting is anything else
 # return the greeting that was received
 def reply_to(greeting)
+  # your code goes here
 end
 
 # when the number is greater than or equal to 10
@@ -21,6 +23,7 @@ end
 # when the number is below 10
 # return the number
 def deduct_10_if_possible(number)
+  # your code goes here
 end
 
 # if the number is below 100
@@ -28,4 +31,5 @@ end
 # if the number is above 100
 # return the number
 def top_up_to_100(number)
+  # your code goes here
 end

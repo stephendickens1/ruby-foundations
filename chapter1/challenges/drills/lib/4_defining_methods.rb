@@ -13,9 +13,9 @@
 
 # and here's the solution
 
-def add_ten(number)
-  return number + 10
-end
+# > def add_ten(number)
+# >   return number + 10
+# > end
 
 # TIP: some solutions will require more than one line of code
 

@@ -1,4 +1,5 @@
 require_relative '../lib/1_arrays_and_hashes'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe 'arrays and hashes' do
   describe 'first_element' do
@@ -101,15 +102,15 @@ RSpec.describe 'arrays and hashes' do
 
   describe 'highest_number' do
     it 'given [2,5,3,1,4], returns 5' do
-      expect(lowest_number([2,5,3,1,4])).to eq 5
+      expect(highest_number([2,5,3,1,4])).to eq 5
     end
 
     it 'given [2,5,31,4], returns 31' do
-      expect(lowest_number([2,5,31,4])).to eq 31
+      expect(highest_number([2,5,31,4])).to eq 31
     end
 
     it 'given [500,31,4,2,1], returns 500' do
-      expect(lowest_number([500,31,4,2,1])).to eq 3
+      expect(highest_number([500,31,4,2,1])).to eq 500
     end
   end
 
@@ -212,21 +213,11 @@ RSpec.describe 'arrays and hashes' do
 
   describe 'new_drummer' do
     it "given 'kermit', returns {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'}" do
-      expect(new_drummer('kermit'})).to eq({'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'})
+      expect(new_drummer('kermit')).to eq({'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'kermit'})
     end
 
     it "given 'cookie monster', returns {'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'cookie monster'}" do
       expect(new_drummer('cookie monster')).to eq({'vocalist' => 'miss piggy', 'lead_guitar' => 'scooter', 'drummer' => 'cookie monster'})
-    end
-  end
-
-  describe 'touch_in' do
-    it "given 'Aldgate East' and '2022/01/30 11:12', returns {'entrypoint' => 'Aldgate East', 'time' => '2022/01/30 11:12'}" do
-      expect(touch_in('Aldgate East', '2022/01/30 11:12')).to eq({'entrypoint' => 'Aldgate East', 'time' => '2022/01/30 11:12'})
-    end
-
-    it "given 'Victoria' and '2022/08/04 09:00', returns {'entrypoint' => 'Victoria', 'time' => '2022/08/04 09:00'}" do
-      expect(touch_in('Victoria', '2022/08/04 09:00')).to eq({'entrypoint' => 'Victoria', 'time' => '2022/08/04 09:00'})
     end
   end
 
@@ -237,6 +228,16 @@ RSpec.describe 'arrays and hashes' do
 
     it "given 'cookie monster', returns {'vocalist' => 'cookie monster', 'lead_guitar' => 'scooter'}" do
       expect(new_vocalist('cookie monster')).to eq({'vocalist' => 'cookie monster', 'lead_guitar' => 'scooter'})
+    end
+  end
+
+  describe 'touch_in' do
+    it "given 'Aldgate East' and '2022/01/30 11:12', returns {'entrypoint' => 'Aldgate East', 'time' => '2022/01/30 11:12'}" do
+      expect(touch_in('Aldgate East', '2022/01/30 11:12')).to eq({'entrypoint' => 'Aldgate East', 'time' => '2022/01/30 11:12'})
+    end
+
+    it "given 'Victoria' and '2022/08/04 09:00', returns {'entrypoint' => 'Victoria', 'time' => '2022/08/04 09:00'}" do
+      expect(touch_in('Victoria', '2022/08/04 09:00')).to eq({'entrypoint' => 'Victoria', 'time' => '2022/08/04 09:00'})
     end
   end
 

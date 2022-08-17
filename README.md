@@ -1,5 +1,8 @@
 # Ruby Foundations
 
+_Coaching this? Read the coach guidance
+[here.](https://github.com/makersacademy/slug/blob/main/materials/universe/foundations/ruby/DESIGN.x.md)_
+
 ## Learning objectives
 
 In this section, you'll learn how to write programs using Ruby which will, necessarily, involve learning Ruby's syntax. Along the way, you'll also learn about [problem decomposition](./pills/problem_decomposition.md), [debugging](./pills/debugging.md) and [experimenting in IRB](./pills/irb.md).

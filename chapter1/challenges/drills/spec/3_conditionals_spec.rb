@@ -1,4 +1,5 @@
 require_relative '../lib/3_conditionals'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe 'conditionals' do
   describe 'fizz_buzz' do

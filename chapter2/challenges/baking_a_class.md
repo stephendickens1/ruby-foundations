@@ -31,7 +31,7 @@ Class interfaces are made up of methods - specifically the names, arguments and 
 
 ### 3. Create Examples
 
-Think about what it will look like to use this program, once it's completed, and how you expect it to behave. Write them all down now. For example...
+Think about what it will look like to use this program, once it's completed, and how you expect it to behave. Write them all down now. For `PasswordManager`, you might start off like this...
 
 ```
 # This should create an instance of password manager
@@ -47,28 +47,33 @@ password_manager.services
 
 ### 4. Implement the Behaviour
 
-Start to implement the behaviour that you wish `PasswordManager` to have, but remember only to eat small slices of the cake! If you wish, you can use the automated tests to guide you but you should also keep going back to IRB to do some manual testing (see below).
+Start to implement the behaviour that you wish your program to have, but remember only to eat small slices of the cake! Use the automated tests to guide you but, also, keep going back to IRB to do some manual testing (see below).
 
 #### Testing Manually, as You Go
 
-As you build the `PasswordManager`, play with it by using your examples in IRB, like this...
+As you build the your program, play with it in IRB, using the examples you created earlier. For `PasswordManager`, that would look like this...
 
-Start IRB and require your password manager code
+##### 1. Start IRB and require your password manager code
 
 ```shell
 ; irb -r password_manager.rb
 ```
 
-Create an instance of `PasswordManager`, add a password and try to list the services
+##### 2. Create an instance of `PasswordManager`
 
 ```ruby
 > password_manager = PasswordManager.new
+```
+
+##### 3. Add a password and list the services
+
+```ruby
 > password_manager.add("Acebook", "password123")
 > password_manager.add("MakersBnB", "superpassword123")
 > password_manager.services
 ```
 
-> If you get stuck, go back to IRB and manually test your `PasswordManager` class to see how its current behaviour differs from the requirements.
+> Any time you get stuck, go back to IRB and manually test your program to see how its current behaviour differs from the requirements.
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->

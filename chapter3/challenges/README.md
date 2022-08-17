@@ -72,20 +72,39 @@ Password Manager 2.0, will allow users to...
 ## Problem Decomposition
 
 You're going to need 6 methods this time
-- `add`  adds a service and its password
-- `remove` deletes a service and its password
-- `services` returns a list of all services
-- `sort_by` sorts by service name or date added
-- `password_for` returns the password for a specific service
-- `update` updates the password for a specific service
+- `add`
+    * Takes two strings, the service and its password, as arguments
+    * Stores the new service and its password
+    * Unless the new password is already in use elsewhere
+    * Or the service already has a stored password
+- `remove`
+    * Takes one string, the name of a service, as an argument
+    * Deletes that service and its password
+- `services`
+    * Takes no arguments
+    * Returns a list of all the services for which a password has been stored
+    * Does not return all the passwords
+- `sort_by`
+    * Takes one string, either `"service"` or `"added_on"`, as an argument
+    * Returns the list of services sorted by `"service"` or `"added_on"`
+- `password_for`
+    * Takes one string, the service, as an argument
+    * Returns the password for that service
+- `update`
+    * Takes two strings, a service name and new password, as arguments
+    * Updates the password of the service, with the new password
+    * Unless the new password is already in use elsewhere
 
 To improve readability, you might choose to break some of these methods down into small pieces by implementing your own, additional, methods.
+
 ### Getting Started
-0. [Start recording](../../pills/screen_recordings.md) 🎥
-1. Navigate to the `program` directory on the command line and run `rspec`
-2. Work in small steps to build Password Manager 2.0
-3. Run `rspec` regularly to check your progress
-4. Keep going until all the tests pass
+1. [Create a class recipe](../../chapter2/challenges/baking_a_class.md)
+2. [Start recording](../../pills/screen_recordings.md) 🎥
+3. Explain your recipe
+4. Navigate to the `program` directory on the command line and run `rspec`
+5. Work in small steps to build Password Manager 2.0
+6. Run `rspec` regularly to check your progress
+7. Keep going until all the tests pass
 
 ## Submitting Your Work
 

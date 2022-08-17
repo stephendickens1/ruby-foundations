@@ -77,6 +77,14 @@ def is_integer_even?(integer)
   # your code goes here
 end
 
+# TASK: define a method that returns a float converted from a given integer.
+# EXAMPLE INPUT/OUTPUT:
+# when the integer is 1
+# the method should return 1.0
+def integer_to_float(integer)
+  # your code goes here
+end
+
 # TASK: define a method that returns a string equivalent of a given integer.
 # EXAMPLE INPUT/OUTPUT:
 # when the integer is 1
@@ -102,14 +110,6 @@ def return_next_integer(integer)
 end
 
 # Float methods
-
-# TASK: define a method that returns a float converted from a given integer.
-# EXAMPLE INPUT/OUTPUT:
-# when the integer is 1
-# the method should return 1.0
-def integer_to_float(integer)
-  # your code goes here
-end
 
 # TASK: define a method that returns a float that is rounded up from a given float.
 # EXAMPLE INPUT/OUTPUT:

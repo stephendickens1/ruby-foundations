@@ -1,4 +1,5 @@
 require_relative '../lib/4_defining_methods'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe 'defining methods' do
   describe 'say_hello' do
@@ -82,11 +83,11 @@ RSpec.describe 'defining methods' do
   end
 
   describe 'add_number_strings' do
-    it 'returns 4, when given "20" and "20"' do
+    it 'returns 40, when given "20" and "20"' do
       expect(add_number_strings('20', '20')).to eq 40
     end
 
-    it 'returns 4, when given "200" and "200"' do
+    it 'returns 400, when given "200" and "200"' do
       expect(add_number_strings('200', '200')).to eq 400
     end
   end

@@ -25,11 +25,11 @@
 
 # Example solution
 
-class Greeter
-  def hello(name)
-    return 'Hello, ' + name
-  end
-end
+# > class Greeter
+# >   def hello(name)
+# >    return 'Hello, ' + name
+# >  end
+# > end
 
 # Greeter
 # hello

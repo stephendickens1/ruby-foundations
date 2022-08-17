@@ -1,4 +1,5 @@
 require_relative '../lib/1_calling_methods'
+load "#{__dir__}/solution.x.rb" if File.file?("#{__dir__}/solution.x.rb")
 
 RSpec.describe 'calling methods' do
 
