@@ -26,7 +26,7 @@ Class interfaces are made up of methods - specifically the names, arguments and 
 
 <details>
   <summary>PasswordManager Interface</summary>
-  <img src="../../../images/password_manager_interface.png"></img>
+  <img src="../../images/password_manager_interface.png"></img>
 </details>
 
 ### 3. Create Examples
