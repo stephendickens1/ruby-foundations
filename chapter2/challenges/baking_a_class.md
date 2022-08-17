@@ -49,6 +49,12 @@ password_manager.services
 
 Start to implement the behaviour that you wish your program to have, but remember only to eat small slices of the cake! Use the automated tests to guide you but, also, keep going back to IRB to do some manual testing (see below).
 
+Remember that when you're dealing with changing state, such as a collection of stored passwords, you'll need to consider three things before the test/s will pass...
+
+1. The initial state and how that is set up.
+2. How the state is changed
+3. How the new state is then checked
+
 #### Testing Manually, as You Go
 
 As you build the your program, play with it in IRB, using the examples you created earlier. For `PasswordManager`, that would look like this...

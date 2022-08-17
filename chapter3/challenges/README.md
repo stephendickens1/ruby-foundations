@@ -100,7 +100,7 @@ To improve readability, you might choose to break some of these methods down int
 ### Getting Started
 1. [Create a class recipe](../../chapter2/challenges/baking_a_class.md)
 2. [Start recording](../../pills/screen_recordings.md) 🎥
-3. Explain your recipe
+3. Explain the class interface and examples from your recipe
 4. Navigate to the `program` directory on the command line and run `rspec`
 5. Work in small steps to build Password Manager 2.0
 6. Run `rspec` regularly to check your progress
