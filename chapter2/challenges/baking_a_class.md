@@ -24,6 +24,11 @@ Class interfaces are made up of methods - specifically the names, arguments and 
 
 > What would the interface for `PasswordManager` look like? Try to sketch it out and then take a peek at our suggestion below.
 
+/** EDU
+  The image below doesn't display when you preview in VSCode but does display when deployed.
+  See it here: https://github.com/makersacademy/ruby_foundations/blob/main/chapter2/challenges/baking_a_class.md#2-design-the-class-interface
+**/
+
 <details>
   <summary>PasswordManager Interface</summary>
   <img src="../../images/password_manager_interface.png"></img>
@@ -62,7 +67,7 @@ As you build the your program, play with it in IRB, using the examples you creat
 ##### 1. Start IRB and require your password manager code
 
 ```shell
-; irb -r password_manager.rb
+; irb -r ./password_manager.rb
 ```
 
 ##### 2. Create an instance of `PasswordManager`

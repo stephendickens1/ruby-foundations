@@ -15,7 +15,9 @@ In this chapter, you'll work towards these 8 learning objectives (and get furthe
 
 ## The Big Picture
 
-Sections 1 to 5 will introduce you to the skills and concepts you'll need in order to build a _password manager_ program in section 6. Then, in section 7, you'll review your learning.
+Sections 1 to 5 will introduce you to the skills and concepts you'll need in order to build a _password manager_ program in section 7. Then, in section 8, you'll review your learning.
+
+The Intermezzo on Object Instantiation [(section 6)](./bakery/intermezzo_instantiating_objects.md) is a fun dive into Objects in IRB.
 
 ## Contents
 
@@ -24,8 +26,9 @@ Sections 1 to 5 will introduce you to the skills and concepts you'll need in ord
 3. [Introducing Hashes](./03_introducing_hashes.md)
 4. [Introducing Classes](./04_introducing_classes.md)
 5. [Scope](./05_scope.md)
-6. [Chapter 2 Review](./06_chapter_2_review.md)
-7. [Putting Chapter 2 Into Practice](./07_putting_chapter_2_into_practice.md)
+6. [Intermezzo Object Instantiation](./bakery/intermezzo_instantiating_objects.md)
+7. [Chapter 2 Review](./06_chapter_2_review.md)
+8. [Putting Chapter 2 Into Practice](./07_putting_chapter_2_into_practice.md)
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
