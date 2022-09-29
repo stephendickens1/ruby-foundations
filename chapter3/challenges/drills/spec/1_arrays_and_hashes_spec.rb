@@ -415,4 +415,32 @@ RSpec.describe 'arrays and hashes' do
       end
     end
   end
+  describe 'sorts_by_key' do
+    describe 'takes a hash and sorts it by the key' do
+      it 'given {"will"=>12, "simo"=
+      >78, "roi"=>56, "eddie"=>98, "neil"=>43}' do
+      expect(sort_by_key({"will"=>12, "simo"=>78, "roi"=>56, "eddie"=>98, "neil"=>43})).to eq(
+          {"eddie"=>98,
+            "neil"=>43,
+            "roi"=>56,
+            "simo"=>78,
+            "will"=>12} 
+        )
+      end
+    end
+  end
+  describe 'sorts_by_value' do
+    describe 'takes a hash and sorts it by the value' do
+      it 'given {"will"=>12, "simo"=
+      >78, "roi"=>56, "eddie"=>98, "neil"=>43}' do
+      expect(sort_by_value({"will"=>12, "simo"=>78, "roi"=>56, "eddie"=>98, "neil"=>43})).to eq(
+          {"eddie"=>98,
+            "simo"=>78,
+            "roi"=>56,
+            "neil"=>43,
+            "will"=>12} 
+        )
+      end
+    end
+  end
 end
