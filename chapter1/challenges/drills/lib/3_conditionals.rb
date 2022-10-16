@@ -18,8 +18,7 @@ end
   
   puts fizz_buzz(30)
 
-
-
+ 
   
 # if the greeting is 'good morning'
 # return 'good morning to you too'

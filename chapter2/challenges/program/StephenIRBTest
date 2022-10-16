@@ -1,0 +1,17 @@
+class Cake
+    def initialize
+        @flavour = ""
+        @size = 100
+    end 
+    def set_flavour(flavour)
+        @flavour = flavour
+    end 
+    def take_slice(slice)
+        @size -= slice
+        p "You have taken a #{slice} sized slice. There is #{size} percent cake remaining."
+    end
+end
+
+gateau = Cake.new
+gateau.set_flavour = "Double Chocolate"
+gateau.take_slice(40)
