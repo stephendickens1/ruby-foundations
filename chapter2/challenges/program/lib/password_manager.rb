@@ -30,7 +30,8 @@ class PasswordManager
     
     def add(services, passwords)
         if passwords.length >=8 && (passwords.include?("!") || passwords.include?("@") || passwords.include?("$") || passwords.include?("%") || passwords.include?("&"))
-            return @passwordhash[services] = passwords
+            @passwordhash[services] = passwords
+            return @passwordhash
         else
             return p "Your password does not meet the validation requirements"
         end 
@@ -51,5 +52,3 @@ password_manager1 = PasswordManager.new
 
 password_manager1.add("Acebook", "password123!")
 password_manager1.add("MakersBnB", "superpassword123!")
-
-password_manager1
